@@ -57,7 +57,7 @@ resources:
 John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
 :::
 
-## WE ARE DATA {.smaller}
+## WE ARE DATA (Cont.) {.smaller}
 
 #### [**We live in a world of ubiquitous networked communication**]{style="color: blue;"}
 
@@ -65,6 +65,73 @@ John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digit
 
 #### [**We also live in a world of ubiquitous surveillance**]{style="color: blue;"}
 
+-   same technologies have helped spawn an impressive network of governmental, commercial, and unaffiliated infrastructures of mass observation and control
+-   most of what we do in this world has at least the **capacity** to be *observed, recorded, analyzed, and stored* in a databank
+    -   HOW?
+        -   storage is cheap
+        -   computers are fast to analyze information in both real time & retrospective
+        -   our daily activities that are mediated with software can be easily configured to record and report everything it sees upstream
+
 ::: footer
 John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
 :::
+
+## Metadata {.smaller}
+
+::: columns
+::: {.column width="50%"}
+-   Metadata is [*data about data*]{.underline}
+
+-   A simple web search from most unsophisticated smart phone generate lengthy record of new data including
+
+    -   initial search term
+    -   location of your phone
+    -   time & date when you searched
+    -   terms you searched before/after
+    -   your phone operating system
+    -   your phone's IP address
+    -   information of apps on your phone
+:::
+
+::: {.column width="50%"}
+![](images/meta1.jpeg){fig-align="center"}
+:::
+:::
+
+## Metadata Examples {.smaller}
+
+::: panel-tabset
+## Book
+
+![](images/metadata_book.png){fig-align="center" width="550" height="400"}
+
+## Word File
+
+![](images/metadata_word_document.png){fig-align="center" width="550" height="500"}
+
+## Blog
+
+![](images/metadata_blog_post.png){fig-align="center" width="500" height="500"}
+
+## Email
+
+![](images/metadata_email.png){fig-align="center" width="500" height="500"}
+
+## Spreadsheet
+
+![](images/metadata_spreadsheet.png){fig-align="center" width="500" height="500"}
+
+## Computer File
+
+![](images/metadata_files.png){fig-align="center" width="800" height="500"}
+
+## Webpage
+
+![](images/metadata_webpage.png){fig-align="center" width="500" height="500"}
+:::
+
+::: footer
+https://dataedo.com/kb/data-glossary/what-is-metadata
+:::
+
+## 
