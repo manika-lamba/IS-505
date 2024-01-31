@@ -1,0 +1,70 @@
+---
+title: "Week 4: Understanding Metadata"
+subtitle: "IS 505 Information Organization and Access"
+author: 
+  - Dr. Manika Lamba
+  - Dr. Liliana Giusti Serra
+date: '6 February 2024'
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/uiuc.png
+    css: styles.css
+resources:
+  - demo.pdf
+---
+
+## Class Calender
+
+![](images/calender.png){fig-align="center"}
+
+## Today's Class
+
+-   Introduction, news, questions
+-   Lecture
+-   Break (10 minutes)
+-   Discussions
+-   Break (10 minutes)
+-   Class activity
+-   Class wrap-up
+
+## Week 4 Readings
+
+![](images/readings.png){fig-align="center"}
+
+## WE ARE DATA {.smaller}
+
+::: columns
+::: {.column width="50%"}
+#### [**We are filled with data in today's networked society**]{style="color: blue;"}
+
+-   through our web activity, we are assigned *gender, ethnicity, class, age, education level, and potential status of parent with x no. of children* ([digital trace data/digital footprint/digital breadcrumbs]{style="color: orange;"})
+
+-   if internet metadata identifies a user as foreigner than they lose right to privacy afforded to U.S. citizens
+
+-   who would have thought that [*class status, citizenship, ethnicity*]{.underline} could be algorithmically understood?
+:::
+
+::: {.column width="50%"}
+![](images/cover.jpeg){fig-align="center" width="50%"}
+:::
+:::
+
+::: footer
+John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
+:::
+
+## WE ARE DATA {.smaller}
+
+#### [**We live in a world of ubiquitous networked communication**]{style="color: blue;"}
+
+-   technologies that constituent the Internet are so woven into the fabric of our daily lives, where for most of us, existing without seems unimaginable
+
+#### [**We also live in a world of ubiquitous surveillance**]{style="color: blue;"}
+
+::: footer
+John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
+:::
