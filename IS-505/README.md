@@ -1,3 +1,3 @@
-Presentation Link
+## Presentation Link
 
-[Week 4](https://manika-lamba.github.io/Spring-2024/IS-505/Week-4/#/title-slide): Understanding Metadata
+1. [Week 4: Understanding Metadata](https://manika-lamba.github.io/Spring-2024/IS-505/Week-4/#/title-slide)
