@@ -13,8 +13,6 @@ format:
     preview-links: auto
     logo: images/uiuc.png
     css: styles.css
-resources:
-  - demo.pdf
 ---
 
 ## Class Calender
@@ -87,14 +85,27 @@ John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digit
     -   where to draw boundaries
     -   what terms can be used to describe it
 
-## Metadata {.smaller}
+## Metadata: Definition {.smaller}
 
-`Information in the library catalog`
+> ***Information in the library catalog***
+>
+> ***Metadata indicates something beyond the data: a statement or statements about the data***
+>
+> ***All metadata bears the imprint of its origins and intended use when examined closely enough***
+
+-   Gilliland
+
+    -   “the sum total of what one can say about an information object at any level of aggregation”
+    -   “the value-added information that they create to arrange, describe, track, and otherwise enhance access to information objects and the physical collections related to those objects”
+
+-   Pomerantz
+
+    -   “Metadata is a statement about a potentially informative object”
+
+## Metadata {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
--   Metadata indicates something beyond the data: [*a statement or statements about the data*]{style="color: blue;"}
-
 -   A simple web search from most unsophisticated smart phone generate lengthy record of new data including
 
     -   initial search term
@@ -147,21 +158,21 @@ John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digit
 https://dataedo.com/kb/data-glossary/what-is-metadata
 :::
 
-## Metadata: Definition
+## Representative Statements {.smaller}
 
--   Gilliland
-    -   “the sum total of what one can say about an information object at any level of aggregation”
-    -   “the value-added information that they create to arrange, describe, track, and otherwise enhance access to information objects and the physical collections related to those objects”
--   Pomerantz
-    -   “Metadata is a statement about a potentially informative object”
-
-## Representative Statements
-
+::: columns
+::: {.column width="50%"}
 -   How should we create our statements?
 -   We want statements that represent the aspects of information objects that will help users meet their goals
     -   i.e. to find, manage, select, locate, obtain
 -   In a consistent way
     -   so that users can compare descriptions
+:::
+
+::: {.column width="50%"}
+![Ackoff's Pyramid](images/pyramid.png){fig-align="centered" width="950" height="350"}
+:::
+:::
 
 ## Types of Metadata
 
@@ -218,7 +229,38 @@ https://dataedo.com/kb/data-glossary/what-is-metadata
 
 Evalyn Harper
 
-> In "Metadata and Data Quality Problems in the Digital Library," Beall describes several commonly occurring errors in metadata that hinder the access of documents in digital libraries. As I was reading the article, I was reminded of an issue that comes up somewhat often at my circulation desk. 
-The issue has to do with barcodes. The main stacks collection is so big, and so old, that not all of our items were assigned barcodes at the same time. There is a set of texts that were all given barcode labels, but the codes were never inputted into Alma. Just like the errors described in the Beall article, this hinders our ability to access the specific records associated with those items. Since we're not certain exactly which items this problem effects, it only gets fixed when someone attempts to check out an item and the system doesn't recognize the code on its sticker.
+> In "Metadata and Data Quality Problems in the Digital Library," Beall describes several commonly occurring errors in metadata that hinder the access of documents in digital libraries. As I was reading the article, I was reminded of an issue that comes up somewhat often at my circulation desk. The issue has to do with barcodes. The main stacks collection is so big, and so old, that not all of our items were assigned barcodes at the same time. There is a set of texts that were all given barcode labels, but the codes were never inputted into Alma. Just like the errors described in the Beall article, this hinders our ability to access the specific records associated with those items. Since we're not certain exactly which items this problem effects, it only gets fixed when someone attempts to check out an item and the system doesn't recognize the code on its sticker.
 
 -   Take a few minutes to discuss with a neighbor – **have you encountered such errors in metadata systems**?
+
+##  Electronic Theses and Dissertations Metadata Standard (ETD-MS) {.smaller}
+
+[Metadata Elements](https://www.ndltd.org/standards/metadata/)
+
+::: columns
+::: {.column width="50%"}
+- dc.title
+- dc.creator
+- dc.subject
+- dc.description
+- dc.publisher
+- dc.contributor
+- dc.date
+- dc.type
+:::
+
+::: {.column width="50%"}
+- dc.format
+- dc.identifier
+- dc.language
+- dc.coverage
+- dc.rights
+- thesis.degree
+:::
+:::
+
+
+## [Collection Builder](https://collectionbuilder.github.io/)
+
+![](images/collection-builder.png){fig-align="center"}
+
