@@ -23,19 +23,19 @@ resources:
 
 ## Today's Class
 
--   Introduction, news, questions
+-   Introduction
 -   Lecture
 -   Break (10 minutes)
 -   Discussions
 -   Break (10 minutes)
 -   Class activity
--   Class wrap-up
+-   Class wrap-up and announcement by Graduate Employees’ Organization (Marly Santora, Sofia Caruso, and Lesley Owens)
 
 ## Week 4 Readings
 
 ![](images/readings.png){fig-align="center"}
 
-## WE ARE DATA {.smaller}
+## We are Data {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -57,7 +57,7 @@ resources:
 John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
 :::
 
-## WE ARE DATA (Cont.) {.smaller}
+## We are Data (Cont.) {.smaller}
 
 #### [**We live in a world of ubiquitous networked communication**]{style="color: blue;"}
 
@@ -76,11 +76,24 @@ John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digit
 John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
 :::
 
+## Human Construct
+
+-   Metadata is a human construct and not found in nature
+-   It is designed to solve particular problem
+-   Nothing objective about it
+-   It makes subjective statement
+    -   what should be included
+    -   what should be omitted
+    -   where to draw boundaries
+    -   what terms can be used to describe it
+
 ## Metadata {.smaller}
+
+`Information in the library catalog`
 
 ::: columns
 ::: {.column width="50%"}
--   Metadata is [*data about data*]{.underline}
+-   Metadata indicates something beyond the data: [*a statement or statements about the data*]{style="color: blue;"}
 
 -   A simple web search from most unsophisticated smart phone generate lengthy record of new data including
 
@@ -134,4 +147,78 @@ John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digit
 https://dataedo.com/kb/data-glossary/what-is-metadata
 :::
 
-## 
+## Metadata: Definition
+
+-   Gilliland
+    -   “the sum total of what one can say about an information object at any level of aggregation”
+    -   “the value-added information that they create to arrange, describe, track, and otherwise enhance access to information objects and the physical collections related to those objects”
+-   Pomerantz
+    -   “Metadata is a statement about a potentially informative object”
+
+## Representative Statements
+
+-   How should we create our statements?
+-   We want statements that represent the aspects of information objects that will help users meet their goals
+    -   i.e. to find, manage, select, locate, obtain
+-   In a consistent way
+    -   so that users can compare descriptions
+
+## Types of Metadata
+
+-   Administrative
+-   Descriptive
+-   Preservation
+-   Technical
+-   Use
+
+## Administrative Metadata
+
+*Metadata used in managing and administering collections and information resources*
+
+-   Examples
+    -   Acquisition information
+    -   Rights information
+    -   Location information
+
+## Descriptive Metadata
+
+*Metadata used to identify and describe collections and related information resources*
+
+-   Examples
+    -   Cataloging records
+    -   Finding aids
+
+## Preservation Metadata
+
+*Metadata related to the preservation management of collections and information resources*
+
+-   Examples
+    -   documentation of physical condition
+    -   documentation of preservation actions
+
+## Technical Metadata
+
+*Metadata related to how a system functions or metadata behaves*
+
+-   Examples
+    -   Hardware and software documentation
+    -   Technical details of digitization process
+    -   Authentication and encryption information
+
+## Use Metadata
+
+*Metadata related to the level and type of use of collections and information resources*
+
+-   Examples
+    -   Circulation records
+    -   Search logs
+    -   User tracking
+
+## Discussion {.smaller}
+
+Evalyn Harper
+
+> In "Metadata and Data Quality Problems in the Digital Library," Beall describes several commonly occurring errors in metadata that hinder the access of documents in digital libraries. As I was reading the article, I was reminded of an issue that comes up somewhat often at my circulation desk. 
+The issue has to do with barcodes. The main stacks collection is so big, and so old, that not all of our items were assigned barcodes at the same time. There is a set of texts that were all given barcode labels, but the codes were never inputted into Alma. Just like the errors described in the Beall article, this hinders our ability to access the specific records associated with those items. Since we're not certain exactly which items this problem effects, it only gets fixed when someone attempts to check out an item and the system doesn't recognize the code on its sticker.
+
+-   Take a few minutes to discuss with a neighbor – **have you encountered such errors in metadata systems**?
