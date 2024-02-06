@@ -22,7 +22,7 @@ format:
 ## Today's Class
 
 -   Introduction
--   Lecture 
+-   Lecture
 -   Break (10 minutes)
 -   Discussion
 -   Break (10 minutes)
@@ -37,7 +37,7 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
-#### [**We are filled with data in today's networked society**]{style="color: blue;"}
+#### [***We are filled with data in today's networked society***]{style="color: blue;"}
 
 -   through our web activity, we are assigned *gender, ethnicity, class, age, education level, and potential status of parent with x no. of children* ([digital trace data/digital footprint/digital breadcrumbs]{style="color: orange;"})
 
@@ -57,11 +57,11 @@ John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digit
 
 ## We are Data (Cont.) {.smaller}
 
-#### [**We live in a world of ubiquitous networked communication**]{style="color: blue;"}
+#### [***We live in a world of ubiquitous networked communication***]{style="color: blue;"}
 
 -   technologies that constituent the Internet are so woven into the fabric of our daily lives, where for most of us, existing without seems unimaginable
 
-#### [**We also live in a world of ubiquitous surveillance**]{style="color: blue;"}
+#### [***We also live in a world of ubiquitous surveillance***]{style="color: blue;"}
 
 -   same technologies have helped spawn an impressive network of governmental, commercial, and unaffiliated infrastructures of mass observation and control
 -   most of what we do in this world has at least the **capacity** to be *observed, recorded, analyzed, and stored* in a databank
@@ -69,6 +69,24 @@ John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digit
         -   storage is cheap
         -   computers are fast to analyze information in both real time & retrospective
         -   our daily activities that are mediated with software can be easily configured to record and report everything it sees upstream
+
+::: footer
+John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
+:::
+
+## We are Data (Cont.) {.smaller}
+
+#### [***We call people 'terrorists' based on metadata***]{style="color: blue;"}*; [**We kill people based on metadata**]{style="color: blue;"}*
+
+-   data-based attack is a *'signature strike'*
+
+    -   a strike that requires no *'target identification'* but rather an identification of groups of men who bear certain signatures or defining characteristics associated with terrorists activity but whose identities are unknown
+
+-   US drone program in early 2000s, strikes were *"targeted"*
+
+-   US does not publicly differentiate between its *"targeted"* and *"signature"* strikes
+
+    -   shift in spike in frequency of drone attacks from 49 between 2004 and 2008 to 372 between 2009 and 2015
 
 ::: footer
 John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
@@ -244,21 +262,22 @@ https://dataedo.com/kb/data-glossary/what-is-metadata
 :::
 :::
 
-
 ## Metadata Quality: Case Study
 
 ::: panel-tabset
 ## Data
+
 ![](images/data.png){fig-align="center"}
 
 ## Missing
+
 ![](images/missing.png){fig-align="center"}
 
-
 ## Queries
+
 ![](images/pqdt.png){fig-align="center"}
 
-## Data Removed 
+## Data Removed
 
 ![](images/quality.png){fig-align="center" width="900" height="500"}
 :::
@@ -297,22 +316,19 @@ Evalyn Harper
 :::
 :::
 
-
-
 ## Discussion {.smaller}
 
 Chloe Mason
 
-1. Is there a point in which the data being collected infringes on the privacy of the user? If so, how do we as librarians ensure we are protecting their right to privacy, as well as being able to understand metadata trends in an effective way?
+1.  Is there a point in which the data being collected infringes on the privacy of the user? If so, how do we as librarians ensure we are protecting their right to privacy, as well as being able to understand metadata trends in an effective way?
 
-2. How does that software determine whether or not something is unintentionally misspelled, and how does it account for documents that may be misspelled, or spelled differently, in the original source
-
+2.  How does that software determine whether or not something is unintentionally misspelled, and how does it account for documents that may be misspelled, or spelled differently, in the original source
 
 Kari Quintana
 
-1. What social responsibility do we have as information professionals when designing metadata schemes or working with them? What other disciplines do we share the responsibility of metadata with, and what other disciplines could benefit from utilizing metadata?
+1.  What social responsibility do we have as information professionals when designing metadata schemes or working with them? What other disciplines do we share the responsibility of metadata with, and what other disciplines could benefit from utilizing metadata?
 
-2. How might the dependency on advanced technologies worsen metadata errors or other data quality problems in the long run? 
+2.  How might the dependency on advanced technologies worsen metadata errors or other data quality problems in the long run?
 
 ## Build your Online Metadata Collection {.smaller}
 
