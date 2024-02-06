@@ -259,72 +259,62 @@ Evalyn Harper
 :::
 :::
 
-## In-Class Group Activity {.smaller}
+## Build your Online Metadata Collection {.smaller}
 
-
-
+##### Instructions 
 
 ::: columns
 ::: {.column width="50%"}
-1.  Download the [metadata-template file](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing) and upload it on Google Sheets
+1.  Make a copy [metadata-template file](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing) in your Google Sheets
 
 2.  Choose a topic of your interest and paste atleast 15-20 resources in the file (such as books written by a specific author, or books on a particular topic)
 
 3.  Publish your Google Sheets and Paste the [Link here](https://collectionbuilder.github.io/collectionbuilder-sheets/)
 
-4. Visit the [Collection Builder-Sheets default template site](https://collectionbuilder.github.io/collectionbuilder-sheets/)
-
-
+4.  Visit the [Collection Builder-Sheets default template site](https://collectionbuilder.github.io/collectionbuilder-sheets/)
 :::
-
 
 ::: {.column width="50%"}
-![](https://collectionbuilder.github.io/cb-docs/assets/images/publish-sheet-web.gif)
-*Important: To view your objects on the prototype site, the files will need to be available externally on the web (e.g., hosted on your organization’s server or via a platform such as Digital Ocean or Reclaim Hosting). You can also host files for free via GitHub pages.*
-
+![](https://collectionbuilder.github.io/cb-docs/assets/images/publish-sheet-web.gif) *Important: To view your objects on the prototype site, the files will need to be available externally on the web (e.g., hosted on your organization’s server or via a platform such as Digital Ocean or Reclaim Hosting). You can also host files for free via GitHub pages.*
 :::
 :::
 
-
-## In-Class Group Activity {.smaller}
-
-
+## In-Class Group Activity (Cont.) {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
-
-
-
-5. Click the Use Metadata CSV Link (e.g. Google Sheet) option and paste the shareable link from the Step 3, and then click Submit.
+5.  Click the [*Use Metadata CSV Link*]{.underline} option and paste the shareable link from the Step 3, and then click Submit.
 
 ![](images/activity.png){fig-align="center"}
 
-6. You should now see a prototype site featuring objects and metadata from your collection. 
-
-
-
+6.  You should now see a prototype site featuring objects and metadata from your collection.
 :::
-
 
 ::: {.column width="50%"}
 ![](https://collectionbuilder.github.io/cb-docs/assets/images/publish-button-sheets.gif)
-
-
 :::
 :::
 
-## In-Class Activity {.smaller}
+## In-Class Activity (Cont.) {.smaller}
 
-7. Share your test site via URL
-
-To share your test site with others, add your full metadata link to the end of the CB-Sheets default template like: https://collectionbuilder.github.io/collectionbuilder-sheets/?csv=**your metadata URL here**
+7.  Share your test site via URL by adding your full metadata link to the end of the CB-Sheets default template like: [*https://collectionbuilder.github.io/collectionbuilder-sheets/?csv=*]{style="color: blue;"}[***your metadata URL here***]{style="color: red;"}
 
 For example:
 
 **https://collectionbuilder.github.io/collectionbuilder-sheets/?csv=**https://docs.google.com/spreadsheets/d/e/2PACX-1vRJhe6UcNZXItEtHlxQFOaHBBD2SDU8nyNOAROtcLWLrl83sYaCNBNYHOvhM_xZ7SVnnOrjCzo6U5_o/pub?output=csv
 
 
+## Assignment Submission on Canvas {.smaller}
 
+- Each group will post a **single post** on the [Canva](https://canvas.illinois.edu/courses/42042/assignments/929324?module_item_id=3256499) with their responses by **7PM TODAY**. At the top of the forum post, list all your group members’ names.
+
+ 
+- Discussion points for your assignment: 
+
+  - Provide a description of your selected dataset and its source(s)
+  - URL for your Online Metadata Collection
+  - Challenges Encountered
+  
 > Metadata Guidelines: <https://collectionbuilder.github.io/collectionbuilder-sheets/metadata.html>
 >
 > Deploy them on [Collection Builder](https://collectionbuilder.github.io/) using the instructions [here](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/)
