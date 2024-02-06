@@ -235,7 +235,7 @@ https://dataedo.com/kb/data-glossary/what-is-metadata
     -   Social-Bookmarks
     -   Reviews on Amazons and Goodreads
     -   Tags on LibraryThing
-    -   Folksonomy (collaborative tagging, social indexing social tagging)
+    -   Folksonomy (collaborative tagging, social indexing, social tagging)
     -   Crowdsourcing
 :::
 
