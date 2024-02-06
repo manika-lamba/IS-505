@@ -252,6 +252,23 @@ Evalyn Harper
 
 -   Take a few minutes to discuss with a neighbor – **what kind of different errors have you encountered in metadata systems in libraries/archives/museums**?
 
+
+## Metadata Quality: Case Study
+
+::: panel-tabset
+## Data
+![](images/data.png){fig-align="center"}
+
+## Missing
+![](images/missing.png){fig-align="center"}
+
+
+## Queries
+![](images/PQDT.png){fig-align="center"}
+
+
+:::
+
 ## Electronic Theses and Dissertations Metadata Standard (ETD-MS) {.smaller}
 
 [Metadata Elements](https://www.ndltd.org/standards/metadata/)
