@@ -269,7 +269,7 @@ Evalyn Harper
 
 > In "Metadata and Data Quality Problems in the Digital Library," Beall describes several commonly occurring errors in metadata that hinder the access of documents in digital libraries. As I was reading the article, I was reminded of an issue that comes up somewhat often at my circulation desk. The issue has to do with barcodes. The main stacks collection is so big, and so old, that not all of our items were assigned barcodes at the same time. There is a set of texts that were all given barcode labels, but the codes were never inputted into Alma. Just like the errors described in the Beall article, this hinders our ability to access the specific records associated with those items. Since we're not certain exactly which items this problem effects, it only gets fixed when someone attempts to check out an item and the system doesn't recognize the code on its sticker.
 
--   Take a few minutes to discuss with a neighbor – **what kind of different errors have you encountered in metadata systems in libraries/archives/museums**?
+-   Take a few minutes to discuss with a neighbor – **what kind of different errors have you encountered in metadata systems**?
 
 ## Electronic Theses and Dissertations Metadata Standard (ETD-MS) {.smaller}
 
