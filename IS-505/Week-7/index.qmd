@@ -1,0 +1,420 @@
+---
+title: "Week 7: Subject Access"
+subtitle: "IS 505 Information Organization and Access"
+author: 
+  - Dr. Manika Lamba
+  - Dr. Liliana Giusti Serra
+date: '27 February 2024'
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/uiuc.png
+    css: styles.css
+---
+
+## Class Calender
+
+![](images/calender.png){fig-align="center"}
+
+## Today's Class
+
+-   Introduction
+-   Lecture & Discussion
+-   Break (10 minutes)
+-   Class activity
+-   Break (10 minutes)
+-   Guest Lecture by Christopher Bailey
+
+## Week 4 Readings
+
+![](images/readings.png){fig-align="center"}
+
+## We are Data {.smaller}
+
+::: columns
+::: {.column width="50%"}
+#### [***We are filled with data in today's networked society***]{style="color: blue;"}
+
+-   through our web activity, we are assigned *gender, ethnicity, class, age, education level, and potential status of parent with x no. of children* ([digital trace data/digital footprint/digital breadcrumbs]{style="color: orange;"})
+
+-   if internet metadata identifies a user as foreigner than they lose right to privacy afforded to U.S. citizens
+
+-   who would have thought that [*class status, citizenship, ethnicity*]{.underline} could be algorithmically understood?
+:::
+
+::: {.column width="50%"}
+![](images/cover.jpeg){fig-align="center" width="50%"}
+:::
+:::
+
+::: footer
+John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
+:::
+
+## We are Data (Cont.) {.smaller}
+
+#### [***We live in a world of ubiquitous networked communication***]{style="color: blue;"}
+
+-   technologies that constituent the Internet are so woven into the fabric of our daily lives, where for most of us, existing without seems unimaginable
+
+#### [***We also live in a world of ubiquitous surveillance***]{style="color: blue;"}
+
+-   same technologies have helped spawn an impressive network of governmental, commercial, and unaffiliated infrastructures of mass observation and control
+-   most of what we do in this world has at least the **capacity** to be *observed, recorded, analyzed, and stored* in a databank
+    -   HOW?
+        -   storage is cheap
+        -   computers are fast to analyze information in both real time & retrospective
+        -   our daily activities that are mediated with software can be easily configured to record and report everything it sees upstream
+
+::: footer
+John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
+:::
+
+## We are Data (Cont.) {.smaller}
+
+#### [***We call people 'terrorists' based on metadata***]{style="color: blue;"}*; [**We kill people based on metadata**]{style="color: blue;"}*
+
+-   data-based attack is a *'signature strike'*
+
+    -   a strike that requires no *'target identification'* but rather an identification of groups of men who bear certain signatures or defining characteristics associated with terrorists activity but whose identities are unknown
+
+-   US drone program in early 2000s, strikes were *"targeted"*
+
+-   US does not publicly differentiate between its *"targeted"* and *"signature"* strikes
+
+    -   shift in spike in frequency of drone attacks from 49 between 2004 and 2008 to 372 between 2009 and 2015
+
+::: footer
+John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
+:::
+
+## Human Construct
+
+-   Metadata is a human construct and not found in nature
+-   It is designed to solve particular problem
+-   Nothing objective about it
+-   It makes subjective statement
+    -   what should be included
+    -   what should be omitted
+    -   where to draw boundaries
+    -   what terms can be used to describe it
+
+## Metadata: Definition {.smaller}
+
+> ***Information in the library catalog***
+>
+> ***Metadata indicates something beyond the data: a statement or statements about the data***
+>
+> ***All metadata bears the imprint of its origins and intended use when examined closely enough***
+
+-   Gilliland
+
+    -   “the sum total of what one can say about an information object at any level of aggregation”
+    -   “the value-added information that they create to arrange, describe, track, and otherwise enhance access to information objects and the physical collections related to those objects”
+
+-   Pomerantz
+
+    -   “Metadata is a statement about a potentially informative object”
+
+## Metadata {.smaller}
+
+::: columns
+::: {.column width="50%"}
+-   A simple web search from most unsophisticated smart phone generate lengthy record of new data including
+
+    -   initial search term
+    -   location of your phone
+    -   time & date when you searched
+    -   terms you searched before/after
+    -   your phone operating system
+    -   your phone's IP address
+    -   information of apps on your phone
+:::
+
+::: {.column width="50%"}
+![](images/meta1.jpeg){fig-align="center"}
+:::
+:::
+
+## Metadata Examples {.smaller}
+
+::: panel-tabset
+## Book
+
+![](images/metadata_book.png){fig-align="center" width="550" height="400"}
+
+## Word File
+
+![](images/metadata_word_document.png){fig-align="center" width="550" height="500"}
+
+## Blog
+
+![](images/metadata_blog_post.png){fig-align="center" width="500" height="500"}
+
+## Email
+
+![](images/metadata_email.png){fig-align="center" width="500" height="500"}
+
+## Spreadsheet
+
+![](images/metadata_spreadsheet.png){fig-align="center" width="500" height="500"}
+
+## Computer File
+
+![](images/metadata_files.png){fig-align="center" width="800" height="500"}
+
+## Webpage
+
+![](images/metadata_webpage.png){fig-align="center" width="500" height="500"}
+:::
+
+::: footer
+https://dataedo.com/kb/data-glossary/what-is-metadata
+:::
+
+## Representative Statements {.smaller}
+
+::: columns
+::: {.column width="50%"}
+-   How should we create our statements?
+-   We want statements that represent the aspects of information objects that will help users meet their goals
+    -   i.e. to find, manage, select, locate, obtain
+-   In a consistent way
+    -   so that users can compare descriptions
+:::
+
+::: {.column width="50%"}
+![Ackoff's Pyramid](images/pyramid.png){fig-align="centered" width="950" height="350"}
+:::
+:::
+
+## Types of Metadata
+
+-   Administrative
+-   Descriptive
+-   Preservation
+-   Technical
+-   Use
+
+## Administrative Metadata
+
+*Metadata used in managing and administering collections and information resources*
+
+-   Examples
+    -   Acquisition information
+    -   Rights information
+    -   Location information
+
+## Descriptive Metadata
+
+*Metadata used to identify and describe collections and related information resources*
+
+-   Examples
+    -   Cataloging records
+    -   Finding aids
+
+## Preservation Metadata
+
+*Metadata related to the preservation management of collections and information resources*
+
+-   Examples
+    -   documentation of physical condition
+    -   documentation of preservation actions
+
+## Technical Metadata
+
+*Metadata related to how a system functions or metadata behaves*
+
+-   Examples
+    -   Hardware and software documentation
+    -   Technical details of digitization process
+    -   Authentication and encryption information
+
+## Use Metadata
+
+*Metadata related to the level and type of use of collections and information resources*
+
+-   Examples
+    -   Circulation records
+    -   Search logs
+    -   User tracking
+
+## User-Generated Metadata {.smaller}
+
+::: columns
+::: {.column width="50%"}
+*Metadata generated by users online*
+
+-   Examples
+    -   Social-Bookmarks
+    -   Reviews on Amazons and Goodreads
+    -   Tags on LibraryThing
+    -   Folksonomy (collaborative tagging, social indexing, social tagging)
+    -   Crowdsourcing
+:::
+
+::: {.column width="50%"}
+[![https://crowd.loc.gov/get-started/how-to-tag](images/tag.png){fig-align="center"}](https://crowd.loc.gov/get-started/how-to-tag)
+:::
+:::
+
+## Metadata Quality: Case Study
+
+::: panel-tabset
+## Data
+
+![](images/data.png){fig-align="center"}
+
+## Missing
+
+![](images/missing.png){fig-align="center"}
+
+## Queries
+
+![](images/pqdt.png){fig-align="center"}
+
+## Data Removed
+
+![](images/quality.png){fig-align="center" width="900" height="500"}
+:::
+
+## Discussion {.smaller}
+
+Evalyn Harper
+
+> In "Metadata and Data Quality Problems in the Digital Library," Beall describes several commonly occurring errors in metadata that hinder the access of documents in digital libraries. As I was reading the article, I was reminded of an issue that comes up somewhat often at my circulation desk. The issue has to do with barcodes. The main stacks collection is so big, and so old, that not all of our items were assigned barcodes at the same time. There is a set of texts that were all given barcode labels, but the codes were never inputted into Alma. Just like the errors described in the Beall article, this hinders our ability to access the specific records associated with those items. Since we're not certain exactly which items this problem effects, it only gets fixed when someone attempts to check out an item and the system doesn't recognize the code on its sticker.
+
+-   Take a few minutes to discuss with a neighbor – **what kind of different errors have you encountered in metadata systems**?
+
+## Electronic Theses and Dissertations Metadata Standard (ETD-MS) {.smaller}
+
+[Metadata Elements](https://www.ndltd.org/standards/metadata/)
+
+::: columns
+::: {.column width="50%"}
+-   dc.title
+-   dc.creator
+-   dc.subject
+-   dc.description
+-   dc.publisher
+-   dc.contributor
+-   dc.date
+-   dc.type
+:::
+
+::: {.column width="50%"}
+-   dc.format
+-   dc.identifier
+-   dc.language
+-   dc.coverage
+-   dc.rights
+-   thesis.degree
+:::
+:::
+
+## Discussion {.smaller}
+
+Chloe Mason
+
+1.  Is there a point in which the data being collected infringes on the privacy of the user? If so, how do we as librarians ensure we are protecting their right to privacy, as well as being able to understand metadata trends in an effective way?
+
+2.  How does that software determine whether or not something is unintentionally misspelled, and how does it account for documents that may be misspelled, or spelled differently, in the original source
+
+Kari Quintana
+
+1.  What social responsibility do we have as information professionals when designing metadata schemes or working with them? What other disciplines do we share the responsibility of metadata with, and what other disciplines could benefit from utilizing metadata?
+
+2.  How might the dependency on advanced technologies worsen metadata errors or other data quality problems in the long run?
+
+## Build your Online Metadata Collection {.smaller}
+
+##### Instructions
+
+::: columns
+::: {.column width="50%"}
+1.  Make a copy [metadata-template file](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing) in your Google Sheets
+
+2.  Choose a topic of your interest and paste atleast 15-20 resources in the file (such as books written by a specific author, or books on a particular topic)
+
+3.  Publish your Google Sheets and Paste the [Link here](https://collectionbuilder.github.io/collectionbuilder-sheets/)
+
+4.  Visit the [Collection Builder-Sheets default template site](https://collectionbuilder.github.io/collectionbuilder-sheets/)
+:::
+
+::: {.column width="50%"}
+![](https://collectionbuilder.github.io/cb-docs/assets/images/publish-sheet-web.gif) *Important: To view your objects on the prototype site, the files will need to be available externally on the web (e.g., hosted on your organization’s server or via a platform such as Digital Ocean or Reclaim Hosting). You can also host files for free via GitHub pages.*
+:::
+:::
+
+## In-Class Group Activity (Cont.) {.smaller}
+
+::: columns
+::: {.column width="50%"}
+5.  Click the [*Use Metadata CSV Link*]{.underline} option and paste the shareable link from the Step 3, and then click Submit.
+
+![](images/activity.png){fig-align="center"}
+
+6.  You should now see a prototype site featuring objects and metadata from your collection.
+:::
+
+::: {.column width="50%"}
+![](https://collectionbuilder.github.io/cb-docs/assets/images/publish-button-sheets.gif)
+:::
+:::
+
+## In-Class Activity (Cont.) {.smaller}
+
+7.  Share your test site via URL by adding your full metadata link to the end of the CB-Sheets default template like: [*https://collectionbuilder.github.io/collectionbuilder-sheets/?csv=*]{style="color: blue;"}[***your metadata URL here***]{style="color: red;"}
+
+For example:
+
+**https://collectionbuilder.github.io/collectionbuilder-sheets/?csv=**https://docs.google.com/spreadsheets/d/e/2PACX-1vRJhe6UcNZXItEtHlxQFOaHBBD2SDU8nyNOAROtcLWLrl83sYaCNBNYHOvhM_xZ7SVnnOrjCzo6U5_o/pub?output=csv
+
+## Assignment Submission on Canvas {.smaller}
+
+-   Each group will post a **single post** on the [Canva](https://canvas.illinois.edu/courses/42042/assignments/929324?module_item_id=3256499) with their responses by **7PM TODAY**. At the top of the forum post, list all your group members’ names.
+
+-   Discussion points for your assignment:
+
+    -   Provide a description of your selected dataset and its source(s)
+    -   URL for your Online Metadata Collection
+    -   Challenges Encountered
+
+> Metadata Guidelines: <https://collectionbuilder.github.io/collectionbuilder-sheets/metadata.html>
+>
+> Deploy them on [Collection Builder](https://collectionbuilder.github.io/) using the instructions [here](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/sheets-walkthrough/)
+
+## Due Next Week
+
+-   *Weekly Discussion Post* **(Week 5): February 11, 2024 (Sunday) by 11:59 pm**
+
+-   Start to think of:
+
+    -   *Proposal topic for Final Assignment* **(Feb 20 to Mar 12)**
+    -   *Professional engagement post* **(April 9)**
+    -   *Technical learning post* **(April 23)**
+
+## Next Week (Feb 13): Structure and Standards in Information Organization {.smaller}
+
+![](images/next-week.png){fig-align="center"}
+
+## Office Hours
+
+Open Office Hours: **`Mondays 1-2 PM`**; **`Wednesdays 2-3 PM`**
+
+::: columns
+::: {.column width="50%"}
+**Dr. Manika Lamba**
+
+Email: ***manika\@illinois.edu***
+:::
+
+::: {.column width="50%"}
+**Dr. Liliana Giusti Serra**
+
+Email: ***lilianag\@illinois.edu***
+:::
+:::
