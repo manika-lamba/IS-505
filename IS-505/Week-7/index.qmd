@@ -28,11 +28,32 @@ format:
 -   Break (10 minutes)
 -   Guest Lecture by Christopher Bailey
 
-## Week 4 Readings
+## Week 7 Readings
 
 ![](images/readings.png){fig-align="center"}
 
-## We are Data {.smaller}
+## Subject Headings {.smaller}
+
+::: columns
+::: {.column width="40%"}
+Also called as `subject terms/index terms/index keywords`
+
+![](images/sh.png){fig-align="center"}
+
+![](images/sh2.png){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+![](images/sh3.png){fig-align="center" width="30%"} ![](images/sh4.png){fig-align="center"}
+:::
+:::
+
+-   A subject heading is a short topic description, taken from a defined list of terms, which is organized into categories
+
+## Online Searching with Subject Headings
+
+-   powerful alternative to searching with keywords
+-   
 
 ::: columns
 ::: {.column width="50%"}
