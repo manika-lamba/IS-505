@@ -56,8 +56,8 @@ Also called as `subject terms/index terms/index keywords`
 ::: {.column width="50%"}
 
 - In compared to keywords, subject headings:
-    - they give single consistent description of a topic
-    - they are organized into categories
+    - [they give single consistent description of a topic]{style="color: blue;"}
+    - they are organized into categories/hierarchy structure 
 
 ![](images/sh5.png){fig-align="center"}
 
@@ -70,6 +70,25 @@ Also called as `subject terms/index terms/index keywords`
 ![](images/sh6.png){fig-align="center"}
 ![](images/sh7.png){fig-align="center"}
 ![](images/sh8.png){fig-align="center"}
+:::
+
+:::
+:::
+
+## When to Use Subject Headings?
+
+::: columns
+::: {.column width="50%"}
+![](images/search.png){fig-align="center"}
+:::
+
+
+::: {.column width="50%"}
+::: incremental
+- You have a lot of synonyms
+- A topic is hard to describe in a short phrase
+- You want to search across a whole category of topics
+- To make any systematic search more rigorous
 :::
 
 :::
