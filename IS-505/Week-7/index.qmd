@@ -32,17 +32,96 @@ format:
 
 ![](images/readings.png){fig-align="center"}
 
+## Indexing {.smaller}
+
+> `Subject indexing is the process of describing a document using keywords, symbols, or other index terms`
+>
+> `Subject classification is the process of organizing materials into categories based on a scheme that identifies, distinguishes, and relates the materials' topics or concepts`
+
+::: incremental
+-   One basic problem involved in the process of subject indexing is the choice of appropriate keywords or descriptors though which index entry is to be represented
+
+-   The indexer prefers to use keywords that represents the subject clearly & likely to be chosen by user when looking for the subject
+
+-   In order to standardize the task of choosing appropriate keywords for generation of index entries, no. of vocabulary control devices have been developed such as thesaurus
+
+-   These tools help the indexer to choose most appropriate term to represent the subject at indexing stage and help the users to pick most appropriate terms while formulating a query
+:::
+
+## Indexing (Cont.) {.smaller}
+
+::: incremental
+-   2 different indexers may analyse content of a given document in 2 different ways resulting in 2 different index entries (**Serious Drawback of Manual Indexing**)
+
+-   To avoid total dependence on human intellect, researchers have attempted to automate the whole process of subject indexing & classification
+
+-   Most of the systems developed so far for automatic content analysis are based on statistical calculation of occurrence of keywords in the documents
+
+-   Given the shortcomings of such statistically based systems, researchers have suggested the need of syntactic & semantic analysis of text statements by using computational linguistics in the process of content analysis
+:::
+
+## Exhausivity and Specificity {.smaller}
+
+*`More in Week 11 (Mar 26): Search and Information Retrieval`*
+
+::: incremental
+-   Effectiveness of an indexing system is controlled — **exhaustivity & term specificity**
+
+-   [Exhaustivity]{style="color: blue;"} is the degree to which subject matter of a given document has been reflected through index entries
+
+-   To attain exhaustivity, system has to select as many keywords as possible to represent the idea put forward in the document
+
+-   [Specificity]{style="color: blue;"} refers to how broad or how specific are the terms or keywords chosen under a given situation. More specific the terms, better is the representation of the subject through the index entry
+
+-   [Recall & Precision measure the effectiveness]{style="color: blue;"} of a systems where
+
+    -- Recall = No. of relevant documents retrieved / No. of relevant documents in the collection
+
+    -- Precision = No. of relevant documents retrieved / Total no. of documents retrieved
+
+-   [More Exhaustivity]{style="color: blue;"}, [higher recall & lower precision]{style="color: red;"}
+
+-   [More Specificity]{style="color: blue;"}, [higher precision & lower recall]{style="color: red;"}
+:::
+
+## Controlled Vocabulary {.smaller}
+
+::: incremental
+-   Vocabulary is a [set of terms]{style="color: blue;"} (words, codes, etc.) that are used in a specific community
+
+-   When a vocabulary is [formally *managed*]{style="color: blue;"}, it becomes **Controlled Vocabulary**
+
+-   Where *managed* means the terms are stored & maintained using agreed-upon *procedures*
+
+-   *Procedures* should exist for adding terms, modifying terms, & more rarely, deprecating terms from a controlled vocabulary
+
+-   CV is a [carefully selected list of words and phrase]{style="color: blue;"}, which are used to tag units of information so that they may be more easily retrieved by a search
+
+-   The terms are [chosen by]{style="color: blue;"} and organized by trained professionals (including Librarians and information scientist) who posses expertise in the subject area
+
+-   CV terms can [accurately describe what a given document is actually about]{style="color: blue;"}, even if the terms themselves do not occurs within the text
+
+-   Fully developed CV systems are [LCSH, Sears List, Thesaurus]{style="color: blue;"} etc.
+:::
+
+## Difference Between Index & Controlled Vocabulary {.smaller}
+
+|                  | Indexes         | CVs                                                     |
+|--------------------|--------------------|--------------------------------|
+| **End product**  | index           | term list                                               |
+| **Use**          | content locator | content tagging, website navigation, search enhancement |
+| **Project time** | weeks           | months                                                  |
+| **Methodology**  | reading         | research                                                |
+
 ## Subject Headings {.smaller}
 
 ::: columns
 ::: {.column width="40%"}
 Also called as `subject terms/index terms/index keywords`
 
-- A subject heading is a short topic description, taken from a defined list of terms, which is organized into categories
+-   A subject heading is a short topic description, taken from a defined list of terms, which is organized into categories
 
 ![](images/sh.png){fig-align="center" width="500%"}
-
-
 :::
 
 ::: {.column width="60%"}
@@ -54,137 +133,63 @@ Also called as `subject terms/index terms/index keywords`
 
 ::: columns
 ::: {.column width="50%"}
+-   In compared to keywords, subject headings:
+    -   [they give single consistent description of a topic]{style="color: blue;"}
 
-- In compared to keywords, subject headings:
-    - [they give single consistent description of a topic]{style="color: blue;"}
-    - they are organized into categories/hierarchy structure 
-
-![](images/sh5.png){fig-align="center"}
-
-
+![](images/sh5.png)
 :::
 
 ::: {.column width="50%"}
-
-::: {.r-stack}
-![](images/sh6.png){fig-align="center"}
-![](images/sh7.png){fig-align="center"}
-![](images/sh8.png){fig-align="center"}
+::: r-stack
+![](images/sh6.png){fig-align="center"} ![](images/sh7.png){fig-align="center"} ![](images/sh8.png){fig-align="center"}
 :::
-
 :::
 :::
 
-## When to Use Subject Headings?
+## Subject Headings (Cont.) {.smaller}
 
-::: columns
-::: {.column width="50%"}
-![](images/search.png){fig-align="center"}
-:::
+-   In compared to keywords, subject headings:
+    -   [they are organized into categories/hierarchy structure]{style="color: blue;"}
 
+![](images/search.png)
 
-::: {.column width="50%"}
+## When to Use Subject Headings? {.smaller}
+
 ::: incremental
-- You have a lot of synonyms
-- A topic is hard to describe in a short phrase
-- You want to search across a whole category of topics
-- To make any systematic search more rigorous
+-   You have a lot of synonyms
+-   A topic is hard to describe in a short phrase
+-   You want to search across a whole category of topics
+-   To make any systematic search more rigorous
 :::
 
-:::
+##  PQDT: Case Study {.smaller}
+
+::: panel-tabset
+
+## Subject Classification
+![](images/pqdt.png){fig-align="center" width="50%" height="50%"}
+
+
+## Topic Modeling
+
+![](images/tm.png){fig-align="center"}
+
+## New Sub-Categories
+
+![](images/pqdt2.png){fig-align="center"}
+
+## Dashboard
+![](images/dashboard.png){fig-align="center"}
+
 :::
 
 ## Discussion {.smaller}
 
-Evalyn Harper
-
-> In "Metadata and Data Quality Problems in the Digital Library," Beall describes several commonly occurring errors in metadata that hinder the access of documents in digital libraries. As I was reading the article, I was reminded of an issue that comes up somewhat often at my circulation desk. The issue has to do with barcodes. The main stacks collection is so big, and so old, that not all of our items were assigned barcodes at the same time. There is a set of texts that were all given barcode labels, but the codes were never inputted into Alma. Just like the errors described in the Beall article, this hinders our ability to access the specific records associated with those items. Since we're not certain exactly which items this problem effects, it only gets fixed when someone attempts to check out an item and the system doesn't recognize the code on its sticker.
+Name
 
 -   Take a few minutes to discuss with a neighbor – **what kind of different errors have you encountered in metadata systems**?
 
-## Electronic Theses and Dissertations Metadata Standard (ETD-MS) {.smaller}
-
-[Metadata Elements](https://www.ndltd.org/standards/metadata/)
-
-::: columns
-::: {.column width="50%"}
--   dc.title
--   dc.creator
--   dc.subject
--   dc.description
--   dc.publisher
--   dc.contributor
--   dc.date
--   dc.type
-:::
-
-::: {.column width="50%"}
--   dc.format
--   dc.identifier
--   dc.language
--   dc.coverage
--   dc.rights
--   thesis.degree
-:::
-:::
-
-## Discussion {.smaller}
-
-Chloe Mason
-
-1.  Is there a point in which the data being collected infringes on the privacy of the user? If so, how do we as librarians ensure we are protecting their right to privacy, as well as being able to understand metadata trends in an effective way?
-
-2.  How does that software determine whether or not something is unintentionally misspelled, and how does it account for documents that may be misspelled, or spelled differently, in the original source
-
-Kari Quintana
-
-1.  What social responsibility do we have as information professionals when designing metadata schemes or working with them? What other disciplines do we share the responsibility of metadata with, and what other disciplines could benefit from utilizing metadata?
-
-2.  How might the dependency on advanced technologies worsen metadata errors or other data quality problems in the long run?
-
-## Build your Online Metadata Collection {.smaller}
-
-##### Instructions
-
-::: columns
-::: {.column width="50%"}
-1.  Make a copy [metadata-template file](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing) in your Google Sheets
-
-2.  Choose a topic of your interest and paste atleast 15-20 resources in the file (such as books written by a specific author, or books on a particular topic)
-
-3.  Publish your Google Sheets and Paste the [Link here](https://collectionbuilder.github.io/collectionbuilder-sheets/)
-
-4.  Visit the [Collection Builder-Sheets default template site](https://collectionbuilder.github.io/collectionbuilder-sheets/)
-:::
-
-::: {.column width="50%"}
-![](https://collectionbuilder.github.io/cb-docs/assets/images/publish-sheet-web.gif) *Important: To view your objects on the prototype site, the files will need to be available externally on the web (e.g., hosted on your organization’s server or via a platform such as Digital Ocean or Reclaim Hosting). You can also host files for free via GitHub pages.*
-:::
-:::
-
-## In-Class Group Activity (Cont.) {.smaller}
-
-::: columns
-::: {.column width="50%"}
-5.  Click the [*Use Metadata CSV Link*]{.underline} option and paste the shareable link from the Step 3, and then click Submit.
-
-![](images/activity.png){fig-align="center"}
-
-6.  You should now see a prototype site featuring objects and metadata from your collection.
-:::
-
-::: {.column width="50%"}
-![](https://collectionbuilder.github.io/cb-docs/assets/images/publish-button-sheets.gif)
-:::
-:::
-
-## In-Class Activity (Cont.) {.smaller}
-
-7.  Share your test site via URL by adding your full metadata link to the end of the CB-Sheets default template like: [*https://collectionbuilder.github.io/collectionbuilder-sheets/?csv=*]{style="color: blue;"}[***your metadata URL here***]{style="color: red;"}
-
-For example:
-
-**https://collectionbuilder.github.io/collectionbuilder-sheets/?csv=**https://docs.google.com/spreadsheets/d/e/2PACX-1vRJhe6UcNZXItEtHlxQFOaHBBD2SDU8nyNOAROtcLWLrl83sYaCNBNYHOvhM_xZ7SVnnOrjCzo6U5_o/pub?output=csv
+## In-Class Activity
 
 ## Assignment Submission on Canvas {.smaller}
 
@@ -202,7 +207,7 @@ For example:
 
 ## Due Next Week
 
--   *Weekly Discussion Post* **(Week 5): February 11, 2024 (Sunday) by 11:59 pm**
+-   *Weekly Discussion Post* **(Week 8): March , 2024 (Sunday) by 11:59 pm**
 
 -   Start to think of:
 
@@ -210,9 +215,9 @@ For example:
     -   *Professional engagement post* **(April 9)**
     -   *Technical learning post* **(April 23)**
 
-## Next Week (Feb 13): Structure and Standards in Information Organization {.smaller}
+## Next Week (Mar ): Structure and Standards in Information Organization {.smaller}
 
-![](images/next-week.png){fig-align="center"}
+![](images/.png){fig-align="center"}
 
 ## Office Hours
 
