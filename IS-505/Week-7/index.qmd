@@ -38,268 +38,41 @@ format:
 ::: {.column width="40%"}
 Also called as `subject terms/index terms/index keywords`
 
-![](images/sh.png){fig-align="center"}
+- A subject heading is a short topic description, taken from a defined list of terms, which is organized into categories
 
-![](images/sh2.png){fig-align="center"}
+![](images/sh.png){fig-align="center" width="500%"}
+
+
 :::
 
 ::: {.column width="60%"}
-![](images/sh3.png){fig-align="center" width="30%"} ![](images/sh4.png){fig-align="center"}
+![](images/sh0.png){fig-align="center"}
 :::
 :::
 
--   A subject heading is a short topic description, taken from a defined list of terms, which is organized into categories
-
-## Online Searching with Subject Headings
-
--   powerful alternative to searching with keywords
--   
+## Subject Headings (Cont.) {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
-#### [***We are filled with data in today's networked society***]{style="color: blue;"}
 
--   through our web activity, we are assigned *gender, ethnicity, class, age, education level, and potential status of parent with x no. of children* ([digital trace data/digital footprint/digital breadcrumbs]{style="color: orange;"})
+- In compared to keywords, subject headings:
+    - they give single consistent description of a topic
+    - they are organized into categories
 
--   if internet metadata identifies a user as foreigner than they lose right to privacy afforded to U.S. citizens
+![](images/sh5.png){fig-align="center"}
 
--   who would have thought that [*class status, citizenship, ethnicity*]{.underline} could be algorithmically understood?
+
 :::
 
 ::: {.column width="50%"}
-![](images/cover.jpeg){fig-align="center" width="50%"}
-:::
-:::
 
-::: footer
-John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
-:::
-
-## We are Data (Cont.) {.smaller}
-
-#### [***We live in a world of ubiquitous networked communication***]{style="color: blue;"}
-
--   technologies that constituent the Internet are so woven into the fabric of our daily lives, where for most of us, existing without seems unimaginable
-
-#### [***We also live in a world of ubiquitous surveillance***]{style="color: blue;"}
-
--   same technologies have helped spawn an impressive network of governmental, commercial, and unaffiliated infrastructures of mass observation and control
--   most of what we do in this world has at least the **capacity** to be *observed, recorded, analyzed, and stored* in a databank
-    -   HOW?
-        -   storage is cheap
-        -   computers are fast to analyze information in both real time & retrospective
-        -   our daily activities that are mediated with software can be easily configured to record and report everything it sees upstream
-
-::: footer
-John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
+::: {.r-stack}
+![](images/sh6.png){fig-align="center"}
+![](images/sh7.png){fig-align="center"}
+![](images/sh8.png){fig-align="center"}
 :::
 
-## We are Data (Cont.) {.smaller}
-
-#### [***We call people 'terrorists' based on metadata***]{style="color: blue;"}*; [**We kill people based on metadata**]{style="color: blue;"}*
-
--   data-based attack is a *'signature strike'*
-
-    -   a strike that requires no *'target identification'* but rather an identification of groups of men who bear certain signatures or defining characteristics associated with terrorists activity but whose identities are unknown
-
--   US drone program in early 2000s, strikes were *"targeted"*
-
--   US does not publicly differentiate between its *"targeted"* and *"signature"* strikes
-
-    -   shift in spike in frequency of drone attacks from 49 between 2004 and 2008 to 372 between 2009 and 2015
-
-::: footer
-John Cheney-Lippold. (2017). We are Data: algorithms and the making of our digital selves. New York University Press.
 :::
-
-## Human Construct
-
--   Metadata is a human construct and not found in nature
--   It is designed to solve particular problem
--   Nothing objective about it
--   It makes subjective statement
-    -   what should be included
-    -   what should be omitted
-    -   where to draw boundaries
-    -   what terms can be used to describe it
-
-## Metadata: Definition {.smaller}
-
-> ***Information in the library catalog***
->
-> ***Metadata indicates something beyond the data: a statement or statements about the data***
->
-> ***All metadata bears the imprint of its origins and intended use when examined closely enough***
-
--   Gilliland
-
-    -   “the sum total of what one can say about an information object at any level of aggregation”
-    -   “the value-added information that they create to arrange, describe, track, and otherwise enhance access to information objects and the physical collections related to those objects”
-
--   Pomerantz
-
-    -   “Metadata is a statement about a potentially informative object”
-
-## Metadata {.smaller}
-
-::: columns
-::: {.column width="50%"}
--   A simple web search from most unsophisticated smart phone generate lengthy record of new data including
-
-    -   initial search term
-    -   location of your phone
-    -   time & date when you searched
-    -   terms you searched before/after
-    -   your phone operating system
-    -   your phone's IP address
-    -   information of apps on your phone
-:::
-
-::: {.column width="50%"}
-![](images/meta1.jpeg){fig-align="center"}
-:::
-:::
-
-## Metadata Examples {.smaller}
-
-::: panel-tabset
-## Book
-
-![](images/metadata_book.png){fig-align="center" width="550" height="400"}
-
-## Word File
-
-![](images/metadata_word_document.png){fig-align="center" width="550" height="500"}
-
-## Blog
-
-![](images/metadata_blog_post.png){fig-align="center" width="500" height="500"}
-
-## Email
-
-![](images/metadata_email.png){fig-align="center" width="500" height="500"}
-
-## Spreadsheet
-
-![](images/metadata_spreadsheet.png){fig-align="center" width="500" height="500"}
-
-## Computer File
-
-![](images/metadata_files.png){fig-align="center" width="800" height="500"}
-
-## Webpage
-
-![](images/metadata_webpage.png){fig-align="center" width="500" height="500"}
-:::
-
-::: footer
-https://dataedo.com/kb/data-glossary/what-is-metadata
-:::
-
-## Representative Statements {.smaller}
-
-::: columns
-::: {.column width="50%"}
--   How should we create our statements?
--   We want statements that represent the aspects of information objects that will help users meet their goals
-    -   i.e. to find, manage, select, locate, obtain
--   In a consistent way
-    -   so that users can compare descriptions
-:::
-
-::: {.column width="50%"}
-![Ackoff's Pyramid](images/pyramid.png){fig-align="centered" width="950" height="350"}
-:::
-:::
-
-## Types of Metadata
-
--   Administrative
--   Descriptive
--   Preservation
--   Technical
--   Use
-
-## Administrative Metadata
-
-*Metadata used in managing and administering collections and information resources*
-
--   Examples
-    -   Acquisition information
-    -   Rights information
-    -   Location information
-
-## Descriptive Metadata
-
-*Metadata used to identify and describe collections and related information resources*
-
--   Examples
-    -   Cataloging records
-    -   Finding aids
-
-## Preservation Metadata
-
-*Metadata related to the preservation management of collections and information resources*
-
--   Examples
-    -   documentation of physical condition
-    -   documentation of preservation actions
-
-## Technical Metadata
-
-*Metadata related to how a system functions or metadata behaves*
-
--   Examples
-    -   Hardware and software documentation
-    -   Technical details of digitization process
-    -   Authentication and encryption information
-
-## Use Metadata
-
-*Metadata related to the level and type of use of collections and information resources*
-
--   Examples
-    -   Circulation records
-    -   Search logs
-    -   User tracking
-
-## User-Generated Metadata {.smaller}
-
-::: columns
-::: {.column width="50%"}
-*Metadata generated by users online*
-
--   Examples
-    -   Social-Bookmarks
-    -   Reviews on Amazons and Goodreads
-    -   Tags on LibraryThing
-    -   Folksonomy (collaborative tagging, social indexing, social tagging)
-    -   Crowdsourcing
-:::
-
-::: {.column width="50%"}
-[![https://crowd.loc.gov/get-started/how-to-tag](images/tag.png){fig-align="center"}](https://crowd.loc.gov/get-started/how-to-tag)
-:::
-:::
-
-## Metadata Quality: Case Study
-
-::: panel-tabset
-## Data
-
-![](images/data.png){fig-align="center"}
-
-## Missing
-
-![](images/missing.png){fig-align="center"}
-
-## Queries
-
-![](images/pqdt.png){fig-align="center"}
-
-## Data Removed
-
-![](images/quality.png){fig-align="center" width="900" height="500"}
 :::
 
 ## Discussion {.smaller}
