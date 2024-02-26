@@ -107,7 +107,7 @@ format:
 ## Difference Between Index & Controlled Vocabulary {.smaller}
 
 |                  | Indexes         | CVs                                                     |
-|--------------------|--------------------|--------------------------------|
+|----------------|----------------|-----------------------------------------|
 | **End product**  | index           | term list                                               |
 | **Use**          | content locator | content tagging, website navigation, search enhancement |
 | **Project time** | weeks           | months                                                  |
@@ -162,25 +162,150 @@ Also called as `subject terms/index terms/index keywords`
 -   To make any systematic search more rigorous
 :::
 
-##  PQDT: Case Study {.smaller}
+
+## Topic Modeling {.smaller}
 
 ::: panel-tabset
 
+## Topic Modeling
+
+::: columns
+::: {.column width="50%"}
+![](images/tm2.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/tm3.jpeg){fig-align="center"}
+:::
+:::
+
+## Topic Analyis + Time
+
+-   It assists in identifying topics within a context and how they advance in time
+
+-   For instance, over time, few documents within a topic may initiate content that varies from the original content; if that initiated content is shared by a lot of later documents, the content is recognized as a new topic
+
+-   Hence, with the progression of time, topics advance, new themes emerge, and old ones become obsolete
+
+-   So, topic modeling not just helps the librarians to decide the trending topics or related fields to their field of intrigue but additionally encourages them to distinguish new concepts and fields over time
+
+## When to Use Topic Modeling
+
+-   When you have a vast collection of text documents
+
+-   When the collection belongs to a specific subject
+
+-   When the collection has a similar type of documents, such as when all files in the collection are newspaper articles
+
+## When NOT to Use Topic Modeling
+
+-   When you have a relatively small number of documents
+
+-   When you do not have any idea about your collection. In this case, clustering will be a better option than using topic modeling
+
+-   When the collection has a mixture of different types of documents, such as when the collection is composed of newspaper archives, journal articles, and ETDs
+:::
+
+## Topic Modeling {.smaller}
+
+::: panel-tabset
+## Available Tools and Packages
+
+::: columns
+::: {.column width="40%"}
+**Out-of-Box Tools**
+
+-   [Topic Modeling Tool](https://code.google.com/archive/p/topic-modeling-tool/)
+-   [RapidMiner](https://rapidminer.com/)
+-   [VyontTools](https://voyant-tools.org/)
+-   [DARIAH Topics Explorer](https://dariah-de.github.io/TopicsExplorer/)
+-   [ORANGE](https://orangedatamining.com/)
+-   [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/jslda.html) ..... (more!)
+:::
+
+::: {.column width="30%"}
+**R Libraries**
+
+-   [quanteda](https://quanteda.io/)
+-   [stm](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
+-   [tm](https://cran.r-project.org/web/packages/tm/tm.pdf)
+-   [lda](https://cran.r-project.org/web/packages/lda/lda.pdf)
+-   [topicmodels](https://cran.r-project.org/package=topicmodels)
+-   [text2vec](https://cran.r-project.org/web/packages/text2vec/index.html)
+-   [topicdoc](https://cran.r-project.org/web/packages/topicdoc/index.html)
+-   [BTM](https://cran.r-project.org/web/packages/BTM/index.html)
+-   [tidytext](https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html)
+-   [textmineR](https://cran.r-project.org/package=textmineR) .....(more!)
+:::
+
+::: {.column width="30%"}
+**Python Libraries**
+
+-   [bertopic](https://pypi.org/project/bertopic/)
+-   [corextopic](https://pypi.org/project/corextopic/)
+-   [scikit-learn](https://pypi.org/project/scikit-learn/)
+-   [corextopic](https://pypi.org/project/corextopic/)
+-   [genism](https://pypi.org/project/gensim/)
+-   [lda](https://pypi.org/project/lda/)
+-   [tethne](https://pythonhosted.org/tethne/)
+-   [dynamic_topic_modeling](https://pypi.org/project/dynamic-topic-modeling/) .....(more!)
+:::
+:::
+
+
+## Algorithms
+
+-   [Latent Dirchlet Allocation, 2003](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf)
+
+-   [Hierarchal Latent Dirichlet Allocation (hLDA), 2003](https://proceedings.neurips.cc/paper/2003/file/7b41bfa5085806dfa24b8c9de0ce567f-Paper.pdf)
+
+-   [Correlated Topic Model (CTM), 2005](https://proceedings.neurips.cc/paper_files/paper/2005/file/9e82757e9a1c12cb710ad680db11f6f1-Paper.pdf)
+
+-   [Dynamic Topic Model (DTM), 2006](https://mimno.infosci.cornell.edu/info6150/readings/dynamic_topic_models.pdf)
+
+-   [Correlation Explanation (CorEx), 2016](https://arxiv.org/abs/1611.10277)
+
+-   [Structural Topic Model (STM), 2019](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
+
+-   [GuidedLDA, 2018](https://github.com/vi3k6i5/guidedlda)
+
+-   [LDA2Vec, 2019](https://aclanthology.org/N19-1414.pdf)
+
+-   [BERTopic, 2022](https://arxiv.org/abs/2203.05794) . . . more!
+
+
+
+## Topic Visualization
+
+-   Open questions:
+
+1.  How we use the output of the algorithm?
+2.  How should we visualize and navigate the topical structure?
+3.  What do the topics and document representations tell us about the texts?
+
+-   Output of topic modeling is not entirely human-readable, and one way to understand the results is through visualization
+-   "Topic models are meant to help interpret and understand texts, but it is still the researcher's job to do the actual interpreting and understanding" (Blei, 2012)
+-   "Be sure that you can understand the visualization as topic modeling tools are fallible" (Blei, 2012)
+
+
+:::
+
+## PQDT: Case Study {.smaller}
+
+::: panel-tabset
 ## Subject Classification
+
 ![](images/pqdt.png){fig-align="center" width="50%" height="50%"}
 
 
-## Topic Modeling
-
-![](images/tm.png){fig-align="center"}
 
 ## New Sub-Categories
 
 ![](images/pqdt2.png){fig-align="center"}
 
 ## Dashboard
-![](images/dashboard.png){fig-align="center"}
 
+![](images/dashboard.png){fig-align="center"}
 :::
 
 ## Discussion {.smaller}

@@ -429,9 +429,9 @@ Dr.&nbsp;Liliana Giusti Serra
 <h2>Difference Between Index &amp; Controlled Vocabulary</h2>
 <table>
 <colgroup>
-<col style="width: 27%">
-<col style="width: 27%">
-<col style="width: 44%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 56%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -525,33 +525,150 @@ Dr.&nbsp;Liliana Giusti Serra
 </ul>
 </div>
 </section>
+<section id="topic-modeling" class="slide level2 smaller">
+<h2>Topic Modeling</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Topic Modeling</a></li><li><a href="#tabset-1-2">Topic Analyis + Time</a></li><li><a href="#tabset-1-3">When to Use Topic Modeling</a></li><li><a href="#tabset-1-4">When NOT to Use Topic Modeling</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tm2.png"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tm3.jpeg"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2">
+<ul>
+<li><p>It assists in identifying topics within a context and how they advance in time</p></li>
+<li><p>For instance, over time, few documents within a topic may initiate content that varies from the original content; if that initiated content is shared by a lot of later documents, the content is recognized as a new topic</p></li>
+<li><p>Hence, with the progression of time, topics advance, new themes emerge, and old ones become obsolete</p></li>
+<li><p>So, topic modeling not just helps the librarians to decide the trending topics or related fields to their field of intrigue but additionally encourages them to distinguish new concepts and fields over time</p></li>
+</ul>
+</div>
+<div id="tabset-1-3">
+<ul>
+<li><p>When you have a vast collection of text documents</p></li>
+<li><p>When the collection belongs to a specific subject</p></li>
+<li><p>When the collection has a similar type of documents, such as when all files in the collection are newspaper articles</p></li>
+</ul>
+</div>
+<div id="tabset-1-4">
+<ul>
+<li><p>When you have a relatively small number of documents</p></li>
+<li><p>When you do not have any idea about your collection. In this case, clustering will be a better option than using topic modeling</p></li>
+<li><p>When the collection has a mixture of different types of documents, such as when the collection is composed of newspaper archives, journal articles, and ETDs</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="topic-modeling-2" class="slide level2 smaller">
+<h2>Topic Modeling</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Available Tools and Packages</a></li><li><a href="#tabset-2-2">Algorithms</a></li><li><a href="#tabset-2-3">Topic Visualization</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><strong>Out-of-Box Tools</strong></p>
+<ul>
+<li><a href="https://code.google.com/archive/p/topic-modeling-tool/">Topic Modeling Tool</a></li>
+<li><a href="https://rapidminer.com/">RapidMiner</a></li>
+<li><a href="https://voyant-tools.org/">VyontTools</a></li>
+<li><a href="https://dariah-de.github.io/TopicsExplorer/">DARIAH Topics Explorer</a></li>
+<li><a href="https://orangedatamining.com/">ORANGE</a></li>
+<li><a href="https://mimno.infosci.cornell.edu/jsLDA/jslda.html">jsLDA</a> ….. (more!)</li>
+</ul>
+</div><div class="column" style="width:30%;">
+<p><strong>R Libraries</strong></p>
+<ul>
+<li><a href="https://quanteda.io/">quanteda</a></li>
+<li><a href="https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf">stm</a></li>
+<li><a href="https://cran.r-project.org/web/packages/tm/tm.pdf">tm</a></li>
+<li><a href="https://cran.r-project.org/web/packages/lda/lda.pdf">lda</a></li>
+<li><a href="https://cran.r-project.org/package=topicmodels">topicmodels</a></li>
+<li><a href="https://cran.r-project.org/web/packages/text2vec/index.html">text2vec</a></li>
+<li><a href="https://cran.r-project.org/web/packages/topicdoc/index.html">topicdoc</a></li>
+<li><a href="https://cran.r-project.org/web/packages/BTM/index.html">BTM</a></li>
+<li><a href="https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html">tidytext</a></li>
+<li><a href="https://cran.r-project.org/package=textmineR">textmineR</a> …..(more!)</li>
+</ul>
+</div><div class="column" style="width:30%;">
+<p><strong>Python Libraries</strong></p>
+<ul>
+<li><a href="https://pypi.org/project/bertopic/">bertopic</a></li>
+<li><a href="https://pypi.org/project/corextopic/">corextopic</a></li>
+<li><a href="https://pypi.org/project/scikit-learn/">scikit-learn</a></li>
+<li><a href="https://pypi.org/project/corextopic/">corextopic</a></li>
+<li><a href="https://pypi.org/project/gensim/">genism</a></li>
+<li><a href="https://pypi.org/project/lda/">lda</a></li>
+<li><a href="https://pythonhosted.org/tethne/">tethne</a></li>
+<li><a href="https://pypi.org/project/dynamic-topic-modeling/">dynamic_topic_modeling</a> …..(more!)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="tabset-2-2">
+<ul>
+<li><p><a href="https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Latent Dirchlet Allocation, 2003</a></p></li>
+<li><p><a href="https://proceedings.neurips.cc/paper/2003/file/7b41bfa5085806dfa24b8c9de0ce567f-Paper.pdf">Hierarchal Latent Dirichlet Allocation (hLDA), 2003</a></p></li>
+<li><p><a href="https://proceedings.neurips.cc/paper_files/paper/2005/file/9e82757e9a1c12cb710ad680db11f6f1-Paper.pdf">Correlated Topic Model (CTM), 2005</a></p></li>
+<li><p><a href="https://mimno.infosci.cornell.edu/info6150/readings/dynamic_topic_models.pdf">Dynamic Topic Model (DTM), 2006</a></p></li>
+<li><p><a href="https://arxiv.org/abs/1611.10277">Correlation Explanation (CorEx), 2016</a></p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf">Structural Topic Model (STM), 2019</a></p></li>
+<li><p><a href="https://github.com/vi3k6i5/guidedlda">GuidedLDA, 2018</a></p></li>
+<li><p><a href="https://aclanthology.org/N19-1414.pdf">LDA2Vec, 2019</a></p></li>
+<li><p><a href="https://arxiv.org/abs/2203.05794">BERTopic, 2022</a> . . . more!</p></li>
+</ul>
+</div>
+<div id="tabset-2-3">
+<ul>
+<li>Open questions:</li>
+</ul>
+<ol type="1">
+<li>How we use the output of the algorithm?</li>
+<li>How should we visualize and navigate the topical structure?</li>
+<li>What do the topics and document representations tell us about the texts?</li>
+</ol>
+<ul>
+<li>Output of topic modeling is not entirely human-readable, and one way to understand the results is through visualization</li>
+<li>“Topic models are meant to help interpret and understand texts, but it is still the researcher’s job to do the actual interpreting and understanding” (Blei, 2012)</li>
+<li>“Be sure that you can understand the visualization as topic modeling tools are fallible” (Blei, 2012)</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
 <section id="pqdt-case-study" class="slide level2 smaller">
 <h2>PQDT: Case Study</h2>
 <div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Subject Classification</a></li><li><a href="#tabset-1-2">Topic Modeling</a></li><li><a href="#tabset-1-3">New Sub-Categories</a></li><li><a href="#tabset-1-4">Dashboard</a></li></ul>
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Subject Classification</a></li><li><a href="#tabset-3-2">New Sub-Categories</a></li><li><a href="#tabset-3-3">Dashboard</a></li></ul>
 <div class="tab-content">
-<div id="tabset-1-1">
+<div id="tabset-3-1">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/pqdt.png" style="width:50.0%;height:50.0%"></p>
 </figure>
 </div>
 </div>
-<div id="tabset-1-2">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/tm.png"></p>
-</figure>
-</div>
-</div>
-<div id="tabset-1-3">
+<div id="tabset-3-2">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/pqdt2.png"></p>
 </figure>
 </div>
 </div>
-<div id="tabset-1-4">
+<div id="tabset-3-3">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/dashboard.png"></p>
