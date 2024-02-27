@@ -107,7 +107,7 @@ format:
 ## Difference Between Index & Controlled Vocabulary {.smaller}
 
 |                  | Indexes         | CVs                                                     |
-|----------------|----------------|-----------------------------------------|
+|-----------------|-----------------|--------------------------------------|
 | **End product**  | index           | term list                                               |
 | **Use**          | content locator | content tagging, website navigation, search enhancement |
 | **Project time** | weeks           | months                                                  |
@@ -162,11 +162,9 @@ Also called as `subject terms/index terms/index keywords`
 -   To make any systematic search more rigorous
 :::
 
-
 ## Topic Modeling {.smaller}
 
 ::: panel-tabset
-
 ## Topic Modeling
 
 ::: columns
@@ -252,7 +250,6 @@ Also called as `subject terms/index terms/index keywords`
 :::
 :::
 
-
 ## Algorithms
 
 -   [Latent Dirchlet Allocation, 2003](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf)
@@ -273,8 +270,6 @@ Also called as `subject terms/index terms/index keywords`
 
 -   [BERTopic, 2022](https://arxiv.org/abs/2203.05794) . . . more!
 
-
-
 ## Topic Visualization
 
 -   Open questions:
@@ -286,8 +281,6 @@ Also called as `subject terms/index terms/index keywords`
 -   Output of topic modeling is not entirely human-readable, and one way to understand the results is through visualization
 -   "Topic models are meant to help interpret and understand texts, but it is still the researcher's job to do the actual interpreting and understanding" (Blei, 2012)
 -   "Be sure that you can understand the visualization as topic modeling tools are fallible" (Blei, 2012)
-
-
 :::
 
 ## PQDT: Case Study {.smaller}
@@ -296,8 +289,6 @@ Also called as `subject terms/index terms/index keywords`
 ## Subject Classification
 
 ![](images/pqdt.png){fig-align="center" width="50%" height="50%"}
-
-
 
 ## New Sub-Categories
 
@@ -310,9 +301,20 @@ Also called as `subject terms/index terms/index keywords`
 
 ## Discussion {.smaller}
 
-Name
+Amanda & Haley
 
--   Take a few minutes to discuss with a neighbor – **what kind of different errors have you encountered in metadata systems**?
+>What are some ways that we as information professionals can strive to eliminate our own biases from our classification systems? 
+>How can we normalize subject analysis in order to create a universal, truthful, classification system?
+
+Kari
+
+>What did collaboration in metadata creation look like before the digital age? What does it look like today? What might it look like in the future?
+
+Oilvia
+
+>Whether automation of subject retrieval is helpful or harmful to the design of subject language?
+
+-   Take a few minutes to discuss with a neighbor 
 
 ## In-Class Activity
 
