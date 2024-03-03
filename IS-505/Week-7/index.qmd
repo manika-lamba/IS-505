@@ -17,7 +17,7 @@ format:
 
 ## Class Calendar
 
-![](images/calender.png){fig-align="center"}
+![](images/calendar.png){fig-align="center"}
 
 ## Today's Class
 

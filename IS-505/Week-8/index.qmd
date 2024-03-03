@@ -15,9 +15,9 @@ format:
     css: styles.css
 ---
 
-## Class Calender
+## Class Calendar
 
-![](images/calender.png){fig-align="center"}
+![](images/calendar.png){fig-align="center"}
 
 ## {.smaller}
 

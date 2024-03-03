@@ -17,7 +17,7 @@ format:
 
 ## Class Calendar
 
-![](images/calender.png){fig-align="center"}
+![](images/calendar.png){fig-align="center"}
 
 ## Today's Class
 
@@ -376,7 +376,7 @@ For example:
 
 ## Assignment Submission on Canvas {.smaller}
 
--   Each group will post a **single post** on the [Canva](https://canvas.illinois.edu/courses/42042/assignments/929324?module_item_id=3256499) with their responses by **7PM TODAY**. At the top of the forum post, list all your group members’ names.
+-   Each group will post a **single post** on the [Canvas](https://canvas.illinois.edu/courses/42042/assignments/929324?module_item_id=3256499) with their responses by **7PM TODAY**. At the top of the forum post, list all your group members’ names.
 
 -   Discussion points for your assignment:
 
