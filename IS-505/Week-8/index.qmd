@@ -19,7 +19,7 @@ format:
 
 ![](images/calendar.png){fig-align="center"}
 
-## {.smaller}
+##  {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -83,336 +83,36 @@ format:
 
 ![](images/readings.png){fig-align="center"}
 
-## Indexing {.smaller}
-
-> `Subject indexing is the process of describing a document using keywords, symbols, or other index terms`
->
-> `Subject classification is the process of organizing materials into categories based on a scheme that identifies, distinguishes, and relates the materials' topics or concepts`
-
-::: incremental
--   One basic problem involved in the process of subject indexing is the choice of appropriate keywords or descriptors though which index entry is to be represented
-
--   The indexer prefers to use keywords that represents the subject clearly & likely to be chosen by user when looking for the subject
-
--   In order to standardize the task of choosing appropriate keywords for generation of index entries, no. of vocabulary control devices have been developed such as thesaurus
-
--   These tools help the indexer to choose most appropriate term to represent the subject at indexing stage and help the users to pick most appropriate terms while formulating a query
-:::
-
-## Indexing (Cont.) {.smaller}
-
-::: incremental
--   2 different indexers may analyse content of a given document in 2 different ways resulting in 2 different index entries (**Serious Drawback of Manual Indexing**)
-
--   To avoid total dependence on human intellect, researchers have attempted to automate the whole process of subject indexing & classification
-
--   Most of the systems developed so far for automatic content analysis are based on statistical calculation of occurrence of keywords in the documents
-
--   Given the shortcomings of such statistically based systems, researchers have suggested the need of syntactic & semantic analysis of text statements by using computational linguistics in the process of content analysis
-:::
-
-## Exhausivity and Specificity {.smaller}
-
-*`More in Week 11 (Mar 26): Search and Information Retrieval`*
-
-::: incremental
--   Effectiveness of an indexing system is controlled — **exhaustivity & term specificity**
-
--   [Exhaustivity]{style="color: blue;"} is the degree to which subject matter of a given document has been reflected through index entries
-
--   To attain exhaustivity, system has to select as many keywords as possible to represent the idea put forward in the document
-
--   [Specificity]{style="color: blue;"} refers to how broad or how specific are the terms or keywords chosen under a given situation. More specific the terms, better is the representation of the subject through the index entry
-
--   [Recall & Precision measure the effectiveness]{style="color: blue;"} of a systems where
-
-    -- Recall = No. of relevant documents retrieved / No. of relevant documents in the collection
-
-    -- Precision = No. of relevant documents retrieved / Total no. of documents retrieved
-
--   [More Exhaustivity]{style="color: blue;"}, [higher recall & lower precision]{style="color: red;"}
-
--   [More Specificity]{style="color: blue;"}, [higher precision & lower recall]{style="color: red;"}
-:::
-
-## Controlled Vocabulary {.smaller}
-
-::: incremental
--   Vocabulary is a [set of terms]{style="color: blue;"} (words, codes, etc.) that are used in a specific community
-
--   When a vocabulary is [formally *managed*]{style="color: blue;"}, it becomes **Controlled Vocabulary**
-
--   Where *managed* means the terms are stored & maintained using agreed-upon *procedures*
-
--   *Procedures* should exist for adding terms, modifying terms, & more rarely, deprecating terms from a controlled vocabulary
-
--   CV is a [carefully selected list of words and phrase]{style="color: blue;"}, which are used to tag units of information so that they may be more easily retrieved by a search
-
--   The terms are [chosen by]{style="color: blue;"} and organized by trained professionals (including Librarians and information scientist) who posses expertise in the subject area
-
--   CV terms can [accurately describe what a given document is actually about]{style="color: blue;"}, even if the terms themselves do not occurs within the text
-
--   Fully developed CV systems are [LCSH, Sears List, Thesaurus]{style="color: blue;"} etc.
-:::
-
-## Difference Between Index & Controlled Vocabulary {.smaller}
-
-|                  | Indexes         | CVs                                                     |
-|-------------------|-------------------|------------------------------------|
-| **End product**  | index           | term list                                               |
-| **Use**          | content locator | content tagging, website navigation, search enhancement |
-| **Project time** | weeks           | months                                                  |
-| **Methodology**  | reading         | research                                                |
-
-## Subject Headings {.smaller}
-
-::: columns
-::: {.column width="40%"}
-Also called as `subject terms/index terms/index keywords`
-
--   A subject heading is a short topic description, taken from a defined list of terms, which is organized into categories
-
-![](images/sh.png){fig-align="center" width="500%"}
-:::
-
-::: {.column width="60%"}
-![](images/sh0.png){fig-align="center"}
-:::
-:::
-
-## Subject Headings (Cont.) {.smaller}
-
-::: columns
-::: {.column width="50%"}
--   In compared to keywords, subject headings:
-    -   [they give single consistent description of a topic]{style="color: blue;"}
-
-![](images/sh5.png)
-:::
-
-::: {.column width="50%"}
-::: r-stack
-![](images/sh6.png){fig-align="center"} ![](images/sh7.png){fig-align="center"} ![](images/sh8.png){fig-align="center"}
-:::
-:::
-:::
-
-## Subject Headings (Cont.) {.smaller}
-
--   In compared to keywords, subject headings:
-    -   [they are organized into categories/hierarchy structure]{style="color: blue;"}
-
-![](images/search.png)
-
-## When to Use Subject Headings? {.smaller}
-
-::: incremental
--   You have a lot of synonyms
--   A topic is hard to describe in a short phrase
--   You want to search across a whole category of topics
--   To make any systematic search more rigorous
-:::
-
-## Topic Modeling {.smaller}
-
-::: panel-tabset
-## Topic Modeling
-
-::: columns
-::: {.column width="50%"}
-![](images/tm2.png){fig-align="center"}
-:::
-
-::: {.column width="50%"}
-![](images/tm3.jpeg){fig-align="center"}
-:::
-:::
-
-## Topic Analyis + Time
-
--   It assists in identifying topics within a context and how they advance in time
-
--   For instance, over time, few documents within a topic may initiate content that varies from the original content; if that initiated content is shared by a lot of later documents, the content is recognized as a new topic
-
--   Hence, with the progression of time, topics advance, new themes emerge, and old ones become obsolete
-
--   So, topic modeling not just helps the librarians to decide the trending topics or related fields to their field of intrigue but additionally encourages them to distinguish new concepts and fields over time
-
-## When to Use Topic Modeling
-
--   When you have a vast collection of text documents
-
--   When the collection belongs to a specific subject
-
--   When the collection has a similar type of documents, such as when all files in the collection are newspaper articles
-
-## When NOT to Use Topic Modeling
-
--   When you have a relatively small number of documents
-
--   When you do not have any idea about your collection. In this case, clustering will be a better option than using topic modeling
-
--   When the collection has a mixture of different types of documents, such as when the collection is composed of newspaper archives, journal articles, and ETDs
-:::
-
-## Topic Modeling {.smaller}
-
-::: panel-tabset
-## Available Tools and Packages
-
-::: columns
-::: {.column width="40%"}
-**Out-of-Box Tools**
-
--   [Topic Modeling Tool](https://code.google.com/archive/p/topic-modeling-tool/)
--   [RapidMiner](https://rapidminer.com/)
--   [VyontTools](https://voyant-tools.org/)
--   [DARIAH Topics Explorer](https://dariah-de.github.io/TopicsExplorer/)
--   [ORANGE](https://orangedatamining.com/)
--   [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/jslda.html) ..... (more!)
-:::
-
-::: {.column width="30%"}
-**R Libraries**
-
--   [quanteda](https://quanteda.io/)
--   [stm](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
--   [tm](https://cran.r-project.org/web/packages/tm/tm.pdf)
--   [lda](https://cran.r-project.org/web/packages/lda/lda.pdf)
--   [topicmodels](https://cran.r-project.org/package=topicmodels)
--   [text2vec](https://cran.r-project.org/web/packages/text2vec/index.html)
--   [topicdoc](https://cran.r-project.org/web/packages/topicdoc/index.html)
--   [BTM](https://cran.r-project.org/web/packages/BTM/index.html)
--   [tidytext](https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html)
--   [textmineR](https://cran.r-project.org/package=textmineR) .....(more!)
-:::
-
-::: {.column width="30%"}
-**Python Libraries**
-
--   [bertopic](https://pypi.org/project/bertopic/)
--   [corextopic](https://pypi.org/project/corextopic/)
--   [scikit-learn](https://pypi.org/project/scikit-learn/)
--   [corextopic](https://pypi.org/project/corextopic/)
--   [genism](https://pypi.org/project/gensim/)
--   [lda](https://pypi.org/project/lda/)
--   [tethne](https://pythonhosted.org/tethne/)
--   [dynamic_topic_modeling](https://pypi.org/project/dynamic-topic-modeling/) .....(more!)
-:::
-:::
-
-## Algorithms
-
--   [Latent Dirchlet Allocation, 2003](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf)
-
--   [Hierarchal Latent Dirichlet Allocation (hLDA), 2003](https://proceedings.neurips.cc/paper/2003/file/7b41bfa5085806dfa24b8c9de0ce567f-Paper.pdf)
-
--   [Correlated Topic Model (CTM), 2005](https://proceedings.neurips.cc/paper_files/paper/2005/file/9e82757e9a1c12cb710ad680db11f6f1-Paper.pdf)
-
--   [Dynamic Topic Model (DTM), 2006](https://mimno.infosci.cornell.edu/info6150/readings/dynamic_topic_models.pdf)
-
--   [Correlation Explanation (CorEx), 2016](https://arxiv.org/abs/1611.10277)
-
--   [Structural Topic Model (STM), 2019](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
-
--   [GuidedLDA, 2018](https://github.com/vi3k6i5/guidedlda)
-
--   [LDA2Vec, 2019](https://aclanthology.org/N19-1414.pdf)
-
--   [BERTopic, 2022](https://arxiv.org/abs/2203.05794) . . . more!
-
-## Topic Visualization
-
--   Open questions:
-
-1.  How we use the output of the algorithm?
-2.  How should we visualize and navigate the topical structure?
-3.  What do the topics and document representations tell us about the texts?
-
--   Output of topic modeling is not entirely human-readable, and one way to understand the results is through visualization
--   "Topic models are meant to help interpret and understand texts, but it is still the researcher's job to do the actual interpreting and understanding" (Blei, 2012)
--   "Be sure that you can understand the visualization as topic modeling tools are fallible" (Blei, 2012)
-:::
-
-## PQDT: Case Study {.smaller}
-
-::: panel-tabset
-## Subject Classification
-
-![](images/pqdt.png){fig-align="center" width="50%" height="50%"}
-
-## New Sub-Categories
-
-![](images/pqdt2.png){fig-align="center"}
-
-## Dashboard
-
-![](images/dashboard.png){fig-align="center"}
 :::
 
 ## Discussion {.smaller}
 
-Amanda & Haley
+Name
 
-> What are some ways that we as information professionals can strive to eliminate our own biases from our classification systems? How can we normalize subject analysis in order to create a universal, truthful, classification system?
-
-Kari
-
-> What did collaboration in metadata creation look like before the digital age? What does it look like today? What might it look like in the future?
-
-Oilvia
-
-> Whether automation of subject retrieval is helpful or harmful to the design of subject language?
+Name
 
 -   Take a few minutes to discuss with a neighbor the question of your choice
 
 ## In-Class Activity {.smaller}
 
-**Subject Classification vs Topic Modeling**
+## Due Next {.smaller}
 
-*Group Activity Instructions:*
+**`Spring Break: 9-17 March`**
 
-1.  Download the file assigned to your group from [Canvas](https://canvas.illinois.edu/courses/42042/assignments/939072?module_item_id=3287535)
+> **Weekly Discussion Post (Week 10):** *`March 17, 2024 (Sunday) by 11:59 PM`*
+>
+> **Proposal topic for Final Assignment:** *`March 19, 2024 (Tuesday) by 11:59 PM`*
 
-2.  You'll find four highlighted columns showcasing the `'subject'` and `'identifier/keywords'` assigned by the **ProQuest database indexer** via their in-house classification system, while `'topic'` and `'category'` are generated through **topic modeling**.
+`Start Prepping for:`
 
-    As a senior librarian, your task is to thoroughly examine these four columns by reviewing the **'Title'** and **'Abstract'** of the theses.
-
-    Your goal is to assess whether ProQuest's in-house classification system effectively captures the subject heading of the theses, or the automated classification system (topic modeling) outperforms in providing comprehensive coverage of the subject covered in the title and abstract.
-
-## In-Class Activity {.smaller}
-
-For 20 entries in the spreadsheet, write your response in the column `'In-house PQDT Classification/Topic Modeling'` as **pqdt** if you think Proquest's in-house classification did a better job in covering the subject of the title +abstract otherwise write **topic modeling.**
-
-3.  Upload your revised spreadsheet to [Canvas](https://canvas.illinois.edu/courses/42042/assignments/939072?module_item_id=3287535).
-
-## In-Class Activity {.smaller}
-
-> Each group will post a **single post** to [Canvas](https://canvas.illinois.edu/courses/42042/assignments/939072?module_item_id=3287535) with their responses. At the top of the forum post, list all your group members' names.
-
-`Discussion points for your assignment:`
-
-1.  How many columns did you tag as pqdt versus those tagged using topic modeling?
-
-2.  In your role as a senior librarian, which method proved more effective in indexing the subjects of the theses: ProQuest's indexer utilizing in-house classification, or the automated classification method (topic modeling)?
-
-3.  When you initiated this activity, which method did you anticipate would yield superior results? Has that expectation been met?
-
-4.  Will you consider using topic modeling for subject classification/indexing as a librarian/archivist/curator for your collection (such as from week-4: build you own online collection)? Why or why not?
-
-## Due Next Week
-
-*Weekly Discussion Post* **(Week 8): March 3, 2024 (Sunday) by 11:59 pm**
-
-`Start to think of:`
-
--   *Proposal topic for Final Assignment* **(Feb 20 to Mar 19)**
+-   *Group A-K Final Project Presentation* **(April 2)**
+-   *Group L-S Final Project Presentation* **(April 9)**
 -   *Professional engagement post* **(April 9)**
 -   *Technical learning post* **(April 23)**
 
 ## Next Week (Mar 5): Justice and Representation in Information Systems {.smaller}
 
-![](images/week-8.png){fig-align="center"}
+![](images/week-9.png){fig-align="center"}
 
 ## Office Hours
 
