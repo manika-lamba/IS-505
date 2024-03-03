@@ -83,7 +83,6 @@ format:
 
 ![](images/readings.png){fig-align="center"}
 
-:::
 
 ## Discussion {.smaller}
 
@@ -95,7 +94,7 @@ Name
 
 ## In-Class Activity {.smaller}
 
-## Due Next {.smaller}
+## Upcoming Deadlines {.smaller}
 
 **`Spring Break: 9-17 March`**
 
@@ -110,7 +109,7 @@ Name
 -   *Professional engagement post* **(April 9)**
 -   *Technical learning post* **(April 23)**
 
-## Next Week (Mar 5): Justice and Representation in Information Systems {.smaller}
+## Next Week (Mar 19): Preservation & Accessibility {.smaller}
 
 ![](images/week-9.png){fig-align="center"}
 
