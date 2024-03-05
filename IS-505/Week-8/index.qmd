@@ -289,23 +289,22 @@ Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining 
 
 ![](images/ct.png){fig-align="center"}
 
-## Critical Theory
+## Critical Theory {.smaller}
 
 -   Feminist Theory; Social Influences - Hope Olson (1990s-present)
 -   Critical Race Theory - Jonathan Furner (2000s)
 -   "Three Decades Since *Prejudice and Antipathies*: A Study of Changes in the Library of Congress Subject Headings" - Steven Knowlton (2005)
 -   [Queer Theory](https://academicworks.cuny.edu/gc_pubs/577/#:~:text=Queer%20theory%20invites%20a%20shift,just%20as%20critical%20catalogers%20do) - Emily Drabinski (2010s) \[*Currently President of the American Library Association (ALA)*\]
 
-:::footer
+::: footer
 [Engaging an Author in a Critical Reading of Subject Headings](https://doi.org/10.24242/jclis.v1i1.20)
 
-[Advancing the Relationship between Critical
-Cataloging and Critical Race Theory](https://doi.org/10.1080/01639374.2022.2089936)
+[Advancing the Relationship between Critical Cataloging and Critical Race Theory](https://doi.org/10.1080/01639374.2022.2089936)
 :::
 
-## Current State
+## Representation in LOC {.smaller}
 
-Main issues today:
+**`Absence/Incomplete`**
 
 -   LQBTIQA+
 -   Gender
@@ -409,13 +408,27 @@ Main issues today:
 
 ## Discussion {.smaller}
 
-Name
+`Nora`
 
-Name
+How can we educate our patrons about the challenges and the realities of Google Search? What are some actions that we can take as LIS professionals to best represent diverse communities within the search engines?
 
--   Take a few minutes to discuss with a neighbor the question of your choice
+`Logan`
+
+Has Google's search algorithm really changed and improved this much since Noble did her research? Does this represent a larger change in use metadata across the board, or has something else happened to so drastically change Google's search results?
+
+`Allyson and Weiyu`
+
+What are some strategies that could be valuable for individual users to be able to identify bias and misinformation in Google search results?
+
+`Olivia`
+
+What can libraries do to promote algorithmic literacy in our communities?
 
 ## In-Class Activity {.smaller}
+
+In your group, review the cases on the [Canvas](https://canvas.illinois.edu/courses/42042/assignments/941806). Discuss them in your group, focusing on the discussion questions listed with each case. Post a one-paragraph summary for each part of your discussion on [Canvas](https://canvas.illinois.edu/courses/42042/assignments/941806). **Put all of your group members' names with your group number to the forum.**
+
+Submission by **TODAY** at **7 PM**
 
 ## Upcoming Deadlines {.smaller}
 
