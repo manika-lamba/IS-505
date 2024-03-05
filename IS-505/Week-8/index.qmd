@@ -120,36 +120,107 @@ First Published in 2019
 
 ## Digital Trace Data {.smaller}
 
--   [**Incomplete**]{style="color: blue;"}  - *No matter how big your big data, it probably doesn’t have the information you want*
+-   [**Incomplete**]{style="color: blue;"} - *No matter how big your big data, it probably doesn’t have the information you want*
 
 ::: {style="font-size: 60%;"}
 *big data tends to be missing three types of information useful for social research: demographic information about participants, behavior on other platforms, and data to operationalize theoretical constructs*
 :::
 
--   [**Inaccessible**]{style="color: blue;"}  - *Data held by companies and governments are difficult for researchers to access*
+-   [**Inaccessible**]{style="color: blue;"} - *Data held by companies and governments are difficult for researchers to access*
 
--   [**Non-representative**]{style="color: blue;"}  - *Non-representative data are bad for out-of-sample generalizations, but can be quite useful for within-sample comparisons*
+-   [**Non-representative**]{style="color: blue;"} - *Non-representative data are bad for out-of-sample generalizations, but can be quite useful for within-sample comparisons*
 
-- **Drifting** - *Population drift, usage drift, and system drift make it hard to use big data sources to study long-term trends*
+-   **Drifting** - *Population drift, usage drift, and system drift make it hard to use big data sources to study long-term trends*
 
-- [**Algorithmically confounded**]{style="color: blue;"} - 
-[*Behavior in big data systems is not natural; it is driven by the engineering goals of the systems*]{style="color: orange;"}
+-   [**Algorithmically confounded**]{style="color: blue;"} - [*Behavior in big data systems is not natural; it is driven by the engineering goals of the systems*]{style="color: orange;"}
+
+Algorithmic confounding means that we should be cautious about any claim regarding human behavior that comes from a single digital system, no matter how big
+
+## Digital Trace Data {.smaller}
+
+-   [**Dirty**]{style="color: blue;"} - *Big data sources can be loaded with junk and spam*
+
+-   [**Sensitive**]{style="color: blue;"} - *Some of the information that companies and governments have is sensitive*
+
+    - It turns out to be quite tricky to decide what information is actually sensitive. 
+
+    - In 2006 Netflix released 100 million movie ratings provided by almost 500,000 members and had an open call where people from all over the world submitted algorithms that could improve Netflix’s ability to recommend movies. 
+
+    - Before releasing the data, Netflix removed any obvious personally identifying information, such as names. 
+
+    - But, just two weeks after the data was released Arvind Narayanan and Vitaly Shmatikov (2008) showed that it was possible to learn about specific people’s movie ratings. 
+
+     - Even though an attacker could discover a person’s movie ratings, there still doesn’t seem to be anything sensitive here.
+
+      - While that might be true in general, for at least some of the 500,000 people in the dataset, movie ratings were sensitive. 
+
+
+
+## Digital Trace Data {.smaller}
+
+-   [**Sensitive**]{style="color: blue;"} 
+
+    - In fact, in response to the release and re-identification of the data, a closeted lesbian woman joined a class-action suit against Netflix. 
+
+Here’s how the problem was expressed in this lawsuit
+
+> “\[M\]ovie and rating data contains information of a … highly personal and sensitive nature. The member’s movie data exposes a Netflix member’s personal interest and/or struggles with various highly personal issues, including sexuality, mental illness, recovery from alcoholism, and victimization from incest, physical abuse, domestic violence, adultery, and rape.”
 
 ## Algorithmic Confounding {.smaller}
-
-> *Algorithmic confounding means that we should be cautious about any claim regarding human behavior that comes from a single digital system, no matter how big*
 
 ![](images/bias.jpeg){fig-align="center"}
 
 ::: footer
-Source: https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/
+Source: [https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/](https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/)
 :::
 
-## New Books {.smaller}
+## When Google Got Flu Wrong {.smaller}
 
-::: r-stack
-![](images/new.jpeg){.fragment width="250" height="350"} ![](images/new2.jpeg){.fragment width="250" height="350"} ![](images/new3.jpeg){.fragment width="250" height="350"}
-![](images/new4.jpeg){.fragment width="250" height="350"}
+::: incremental
+- In 2008 Google and CDC launched a new interface called Google Flu Trends to [monitor influenza-like illness
+(ILI)]{style="color: blue;"}
+
+- It relied on data mining records
+of [flu-related search terms entered in Google’s
+search engine]{style="color: blue;"}, combined with computer
+modelling
+
+- It estimated almost exactly
+matched the CDC’s own surveillance data
+over time — and it delivers them several days
+faster than the CDC can
+
+- In 2013, [US flu season]{style="color: blue;"} seems
+to have [confounded its algorithms]{style="color: blue;"}
+
+- It estimated for the Christmas national peak of flu is almost
+double the CDC’s (see ‘Fever peaks’), and some
+of its state data show even larger discrepancies
+
+- It was not the first time that a flu season has
+tripped Google up
+
+- In 2009, Flu Trends had
+to tweak its algorithms after its models badly
+underestimated ILI in the United States at the
+start of the H1N1 (swine flu) pandemic — a
+glitch attributed to changes in people’s search
+behaviour as a result of
+the exceptional nature of
+the pandemic
+:::
+
+
+::: footer
+Source: [https://www.nature.com/articles/494155a](https://www.nature.com/articles/494155a)
+:::
+
+## When Google Got Flu Wrong {.smaller}
+
+![](images/flu.png){fig-align="center"}
+
+::: footer
+Source: [https://www.nature.com/articles/494155a](https://www.nature.com/articles/494155a)
 :::
 
 ## Algorithmic Biasness {.smaller}
@@ -187,6 +258,15 @@ Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining 
 Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining for Information Professionals. Springer, Cham. https://doi.org/10.1007/978-3-030-85085-2_11
 :::
 
+## Further Interesting Readings {.smaller}
+
+::: r-stack
+![](images/new.jpeg){.fragment width="250" height="350"} ![](images/new2.jpeg){.fragment width="250" height="350"} ![](images/new3.jpeg){.fragment width="250" height="350"} ![](images/new4.jpeg){.fragment width="250" height="350"}
+:::
+
+
+## 
+
 ## Discussion {.smaller}
 
 Name
@@ -194,6 +274,9 @@ Name
 Name
 
 -   Take a few minutes to discuss with a neighbor the question of your choice
+
+
+
 
 ## In-Class Activity {.smaller}
 

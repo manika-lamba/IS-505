@@ -456,21 +456,65 @@ Dr.&nbsp;Liliana Giusti Serra
 <li><p><strong>Drifting</strong> - <em>Population drift, usage drift, and system drift make it hard to use big data sources to study long-term trends</em></p></li>
 <li><p><span style="color: blue;"><strong>Algorithmically confounded</strong></span> - <span style="color: orange;"><em>Behavior in big data systems is not natural; it is driven by the engineering goals of the systems</em></span></p></li>
 </ul>
+<p>Algorithmic confounding means that we should be cautious about any claim regarding human behavior that comes from a single digital system, no matter how big</p>
+</section>
+<section id="digital-trace-data-2" class="slide level2 smaller">
+<h2>Digital Trace Data</h2>
+<ul>
+<li><p><span style="color: blue;"><strong>Dirty</strong></span> - <em>Big data sources can be loaded with junk and spam</em></p></li>
+<li><p><span style="color: blue;"><strong>Sensitive</strong></span> - <em>Some of the information that companies and governments have is sensitive</em></p>
+<ul>
+<li><p>It turns out to be quite tricky to decide what information is actually sensitive.</p></li>
+<li><p>In 2006 Netflix released 100 million movie ratings provided by almost 500,000 members and had an open call where people from all over the world submitted algorithms that could improve Netflix’s ability to recommend movies.</p></li>
+<li><p>Before releasing the data, Netflix removed any obvious personally identifying information, such as names.</p></li>
+<li><p>But, just two weeks after the data was released Arvind Narayanan and Vitaly Shmatikov (2008) showed that it was possible to learn about specific people’s movie ratings.</p></li>
+<li><p>Even though an attacker could discover a person’s movie ratings, there still doesn’t seem to be anything sensitive here.</p></li>
+<li><p>While that might be true in general, for at least some of the 500,000 people in the dataset, movie ratings were sensitive.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="digital-trace-data-3" class="slide level2 smaller">
+<h2>Digital Trace Data</h2>
+<ul>
+<li><p><span style="color: blue;"><strong>Sensitive</strong></span></p>
+<ul>
+<li>In fact, in response to the release and re-identification of the data, a closeted lesbian woman joined a class-action suit against Netflix.</li>
+</ul></li>
+</ul>
+<p>Here’s how the problem was expressed in this lawsuit</p>
+<blockquote>
+<p>“[M]ovie and rating data contains information of a … highly personal and sensitive nature. The member’s movie data exposes a Netflix member’s personal interest and/or struggles with various highly personal issues, including sexuality, mental illness, recovery from alcoholism, and victimization from incest, physical abuse, domestic violence, adultery, and rape.”</p>
+</blockquote>
 </section>
 <section id="algorithmic-confounding" class="slide level2 smaller">
 <h2>Algorithmic Confounding</h2>
-<blockquote>
-<p><em>Algorithmic confounding means that we should be cautious about any claim regarding human behavior that comes from a single digital system, no matter how big</em></p>
-</blockquote>
 
 <img data-src="images/bias.jpeg" class="r-stretch quarto-figure-center"><div class="footer">
-<p>Source: https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/</p>
+<p>Source: <a href="https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/">https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/</a></p>
 </div>
 </section>
-<section id="new-books" class="slide level2 smaller">
-<h2>New Books</h2>
-<div class="r-stack">
-<p><img data-src="images/new.jpeg" class="fragment" width="250" height="350"> <img data-src="images/new2.jpeg" class="fragment" width="250" height="350"> <img data-src="images/new3.jpeg" class="fragment" width="250" height="350"> <img data-src="images/new4.jpeg" class="fragment" width="250" height="350"></p>
+<section id="when-google-got-flu-wrong" class="slide level2 smaller">
+<h2>When Google Got Flu Wrong</h2>
+<div>
+<ul>
+<li class="fragment"><p>In 2008 Google and CDC launched a new interface called Google Flu Trends to <span style="color: blue;">monitor influenza-like illness (ILI)</span></p></li>
+<li class="fragment"><p>It relied on data mining records of <span style="color: blue;">flu-related search terms entered in Google’s search engine</span>, combined with computer modelling</p></li>
+<li class="fragment"><p>It estimated almost exactly matched the CDC’s own surveillance data over time — and it delivers them several days faster than the CDC can</p></li>
+<li class="fragment"><p>In 2013, <span style="color: blue;">US flu season</span> seems to have <span style="color: blue;">confounded its algorithms</span></p></li>
+<li class="fragment"><p>It estimated for the Christmas national peak of flu is almost double the CDC’s (see ‘Fever peaks’), and some of its state data show even larger discrepancies</p></li>
+<li class="fragment"><p>It was not the first time that a flu season has tripped Google up</p></li>
+<li class="fragment"><p>In 2009, Flu Trends had to tweak its algorithms after its models badly underestimated ILI in the United States at the start of the H1N1 (swine flu) pandemic — a glitch attributed to changes in people’s search behaviour as a result of the exceptional nature of the pandemic</p></li>
+</ul>
+</div>
+<div class="footer">
+<p>Source: <a href="https://www.nature.com/articles/494155a">https://www.nature.com/articles/494155a</a></p>
+</div>
+</section>
+<section id="when-google-got-flu-wrong-1" class="slide level2 smaller">
+<h2>When Google Got Flu Wrong</h2>
+
+<img data-src="images/flu.png" class="r-stretch quarto-figure-center"><div class="footer">
+<p>Source: <a href="https://www.nature.com/articles/494155a">https://www.nature.com/articles/494155a</a></p>
 </div>
 </section>
 <section id="algorithmic-biasness" class="slide level2 smaller">
@@ -507,6 +551,15 @@ Dr.&nbsp;Liliana Giusti Serra
 <div class="footer">
 <p>Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining for Information Professionals. Springer, Cham. https://doi.org/10.1007/978-3-030-85085-2_11</p>
 </div>
+</section>
+<section id="further-interesting-readings" class="slide level2 smaller">
+<h2>Further Interesting Readings</h2>
+<div class="r-stack">
+<p><img data-src="images/new.jpeg" class="fragment" width="250" height="350"> <img data-src="images/new2.jpeg" class="fragment" width="250" height="350"> <img data-src="images/new3.jpeg" class="fragment" width="250" height="350"> <img data-src="images/new4.jpeg" class="fragment" width="250" height="350"></p>
+</div>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
 </section>
 <section id="discussion" class="slide level2 smaller">
 <h2>Discussion</h2>
