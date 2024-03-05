@@ -245,15 +245,25 @@ Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining 
 ![](images/new.jpeg){.fragment width="250" height="350"} ![](images/new2.jpeg){.fragment width="250" height="350"} ![](images/new3.jpeg){.fragment width="250" height="350"} ![](images/new4.jpeg){.fragment width="250" height="350"}
 :::
 
+## Biases in LoC Subject Headings {.smaller}
+
+-   Language vocabularies do not include every langauge
+-   LOC does not represent marginalized groups of people
+-   Descriptive practices have been based on systems and standards ingrained with white supremacy, misogyny, and homophobia
+-   Much of this descriptive work contains insensitive, outdated, or inappropriate language that reflects the harmful biases built into descriptive systems
+-   From POV - *white, male, christian, heterosexual, cisgender*
+-   Historical bias, unconscious bias, combination of purposeful and unpurposeful bias
+-   Homosaurus term
+
+![](images/loc9.png){fig-align="center"}
+
+::: footer
+[More Info](https://www.youtube.com/watch?v=X0PVYgwHhVo)
+:::
+
 ## Bias Hiding in Your Library {.smaller}
 
-> LOC does not represent marginalized groups of people
->
-> Descriptive practices have been based on systems and standards ingrained with white supremacy, misogyny, and homophobia
->
-> Much of this descriptive work contains insensitive, outdated, or inappropriate language that reflects the harmful biases built into descriptive systems
-
-`A. The ‘straight white American man’ assumption`
+`The ‘straight white American man’ assumption`
 
 *Without gender, race or geographic qualifications, “Astronauts” can be assumed to mean white American men in terms of library subjects*
 
@@ -274,6 +284,33 @@ Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining 
 ::: footer
 <https://theconversation.com/the-bias-hiding-in-your-library-111951>
 :::
+
+## Beginning of Change
+
+![](images/ct.png){fig-align="center"}
+
+## Critical Theory
+
+-   Feminist Theory; Social Influences - Hope Olson (1990s-present)
+-   Critical Race Theory - Jonathan Furner (2000s)
+-   "Three Decades Since *Prejudice and Antipathies*: A Study of Changes in the Library of Congress Subject Headings" - Steven Knowlton (2005)
+-   [Queer Theory](https://academicworks.cuny.edu/gc_pubs/577/#:~:text=Queer%20theory%20invites%20a%20shift,just%20as%20critical%20catalogers%20do) - Emily Drabinski (2010s) \[*Currently President of the American Library Association (ALA)*\]
+
+:::footer
+[Engaging an Author in a Critical Reading of Subject Headings](https://doi.org/10.24242/jclis.v1i1.20)
+:::
+
+## Current State
+
+Main issues today:
+
+-   LQBTIQA+
+-   Gender
+-   Racial categories
+    -   races have been named by dominant group (white)
+-   Indigenous People
+    -   broad and inaccurate subject term
+-   Western bias
 
 ## Some Positive Changes in LOC SH {.smaller}
 
