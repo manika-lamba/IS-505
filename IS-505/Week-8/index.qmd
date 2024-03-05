@@ -104,16 +104,36 @@ format:
 -   **Nonreactive** - *Measurement in big data sources is much less likely to change behavior*
 
 ::: {style="font-size: 60%;"}
-*One challenge of social research is that people can change their behavior when they know that they are being observed by researchers. Social scientists generally call this reactivity*
+*even though some big data sources are nonreactive, they are not always free of social desirability bias, the tendency for people to want to present themselves in the best possible way*
+:::
+
+::: {style="font-size: 60%;"}
 :::
 :::
 
 ::: {.column width="30%"}
 [![](images/cover.jpeg){fig-alt="https://www.bitbybitbook.com/en/1st-ed/preface/" fig-align="center"}](https://www.bitbybitbook.com/en/1st-ed/preface/)
+
+First Published in 2019
 :::
 :::
 
 ## Digital Trace Data {.smaller}
+
+-   [**Incomplete**]{style="color: blue;"}  - *No matter how big your big data, it probably doesn’t have the information you want*
+
+::: {style="font-size: 60%;"}
+*big data tends to be missing three types of information useful for social research: demographic information about participants, behavior on other platforms, and data to operationalize theoretical constructs*
+:::
+
+-   [**Inaccessible**]{style="color: blue;"}  - *Data held by companies and governments are difficult for researchers to access*
+
+-   [**Non-representative**]{style="color: blue;"}  - *Non-representative data are bad for out-of-sample generalizations, but can be quite useful for within-sample comparisons*
+
+- **Drifting** - *Population drift, usage drift, and system drift make it hard to use big data sources to study long-term trends*
+
+- [**Algorithmically confounded**]{style="color: blue;"} - 
+[*Behavior in big data systems is not natural; it is driven by the engineering goals of the systems*]{style="color: orange;"}
 
 ## Algorithmic Confounding {.smaller}
 
@@ -123,6 +143,13 @@ format:
 
 ::: footer
 Source: https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/
+:::
+
+## New Books {.smaller}
+
+::: r-stack
+![](images/new.jpeg){.fragment width="250" height="350"} ![](images/new2.jpeg){.fragment width="250" height="350"} ![](images/new3.jpeg){.fragment width="250" height="350"}
+![](images/new4.jpeg){.fragment width="250" height="350"}
 :::
 
 ## Algorithmic Biasness {.smaller}
