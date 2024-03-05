@@ -142,25 +142,23 @@ Algorithmic confounding means that we should be cautious about any claim regardi
 
 -   [**Sensitive**]{style="color: blue;"} - *Some of the information that companies and governments have is sensitive*
 
-    - It turns out to be quite tricky to decide what information is actually sensitive. 
+    -   It turns out to be quite tricky to decide what information is actually sensitive.
 
-    - In 2006 Netflix released 100 million movie ratings provided by almost 500,000 members and had an open call where people from all over the world submitted algorithms that could improve Netflix’s ability to recommend movies. 
+    -   In 2006 Netflix released 100 million movie ratings provided by almost 500,000 members and had an open call where people from all over the world submitted algorithms that could improve Netflix’s ability to recommend movies.
 
-    - Before releasing the data, Netflix removed any obvious personally identifying information, such as names. 
+    -   Before releasing the data, Netflix removed any obvious personally identifying information, such as names.
 
-    - But, just two weeks after the data was released Arvind Narayanan and Vitaly Shmatikov (2008) showed that it was possible to learn about specific people’s movie ratings. 
+    -   But, just two weeks after the data was released Arvind Narayanan and Vitaly Shmatikov (2008) showed that it was possible to learn about specific people’s movie ratings.
 
-     - Even though an attacker could discover a person’s movie ratings, there still doesn’t seem to be anything sensitive here.
+    -   Even though an attacker could discover a person’s movie ratings, there still doesn’t seem to be anything sensitive here.
 
-      - While that might be true in general, for at least some of the 500,000 people in the dataset, movie ratings were sensitive. 
-
-
+    -   While that might be true in general, for at least some of the 500,000 people in the dataset, movie ratings were sensitive.
 
 ## Digital Trace Data {.smaller}
 
--   [**Sensitive**]{style="color: blue;"} 
+-   [**Sensitive**]{style="color: blue;"}
 
-    - In fact, in response to the release and re-identification of the data, a closeted lesbian woman joined a class-action suit against Netflix. 
+    -   In fact, in response to the release and re-identification of the data, a closeted lesbian woman joined a class-action suit against Netflix.
 
 Here’s how the problem was expressed in this lawsuit
 
@@ -168,51 +166,34 @@ Here’s how the problem was expressed in this lawsuit
 
 ## Algorithmic Confounding {.smaller}
 
+> It occurs when a computer system reflects the implicit values of the humans who are involved in collecting, selecting, or using data
+
 ![](images/bias.jpeg){fig-align="center"}
 
 ::: footer
-Source: [https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/](https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/)
+Source: <https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/>
 :::
 
 ## When Google Got Flu Wrong {.smaller}
 
 ::: incremental
-- In 2008 Google and CDC launched a new interface called Google Flu Trends to [monitor influenza-like illness
-(ILI)]{style="color: blue;"}
+-   In 2008 Google and CDC launched a new interface called Google Flu Trends to [monitor influenza-like illness (ILI)]{style="color: blue;"}
 
-- It relied on data mining records
-of [flu-related search terms entered in Google’s
-search engine]{style="color: blue;"}, combined with computer
-modelling
+-   It relied on data mining records of [flu-related search terms entered in Google’s search engine]{style="color: blue;"}, combined with computer modelling
 
-- It estimated almost exactly
-matched the CDC’s own surveillance data
-over time — and it delivers them several days
-faster than the CDC can
+-   It estimated almost exactly matched the CDC’s own surveillance data over time — and it delivers them several days faster than the CDC can
 
-- In 2013, [US flu season]{style="color: blue;"} seems
-to have [confounded its algorithms]{style="color: blue;"}
+-   In 2013, [US flu season]{style="color: blue;"} seems to have [confounded its algorithms]{style="color: blue;"}
 
-- It estimated for the Christmas national peak of flu is almost
-double the CDC’s (see ‘Fever peaks’), and some
-of its state data show even larger discrepancies
+-   It estimated for the Christmas national peak of flu is almost double the CDC’s (see ‘Fever peaks’), and some of its state data show even larger discrepancies
 
-- It was not the first time that a flu season has
-tripped Google up
+-   It was not the first time that a flu season has tripped Google up
 
-- In 2009, Flu Trends had
-to tweak its algorithms after its models badly
-underestimated ILI in the United States at the
-start of the H1N1 (swine flu) pandemic — a
-glitch attributed to changes in people’s search
-behaviour as a result of
-the exceptional nature of
-the pandemic
+-   In 2009, Flu Trends had to tweak its algorithms after its models badly underestimated ILI in the United States at the start of the H1N1 (swine flu) pandemic — a glitch attributed to changes in people’s search behaviour as a result of the exceptional nature of the pandemic
 :::
 
-
 ::: footer
-Source: [https://www.nature.com/articles/494155a](https://www.nature.com/articles/494155a)
+Source: <https://www.nature.com/articles/494155a>
 :::
 
 ## When Google Got Flu Wrong {.smaller}
@@ -220,7 +201,7 @@ Source: [https://www.nature.com/articles/494155a](https://www.nature.com/article
 ![](images/flu.png){fig-align="center"}
 
 ::: footer
-Source: [https://www.nature.com/articles/494155a](https://www.nature.com/articles/494155a)
+Source: <https://www.nature.com/articles/494155a>
 :::
 
 ## Algorithmic Biasness {.smaller}
@@ -264,8 +245,127 @@ Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining 
 ![](images/new.jpeg){.fragment width="250" height="350"} ![](images/new2.jpeg){.fragment width="250" height="350"} ![](images/new3.jpeg){.fragment width="250" height="350"} ![](images/new4.jpeg){.fragment width="250" height="350"}
 :::
 
+## Bias Hiding in Your Library {.smaller}
 
-## 
+> LOC does not represent marginalized groups of people
+>
+> Descriptive practices have been based on systems and standards ingrained with white supremacy, misogyny, and homophobia
+>
+> Much of this descriptive work contains insensitive, outdated, or inappropriate language that reflects the harmful biases built into descriptive systems
+
+`A. The ‘straight white American man’ assumption`
+
+*Without gender, race or geographic qualifications, “Astronauts” can be assumed to mean white American men in terms of library subjects*
+
+![Official Library of Congress subject headings involving astronaut. Amanda Ros. CC BY](images/loc.png "Official Library of Congress subject headings involving astronauts."){fig-alt="Official Library of Congress subject headings involving astronauts." fig-align="center"}
+
+::: footer
+<https://theconversation.com/the-bias-hiding-in-your-library-111951>
+:::
+
+## Bias Hiding in Your Library {.smaller}
+
+-   Nurses were divided equitably for both Male and Female
+
+-   Under Prostitutes, there was only “Male prostitute” SH, revealing the generic assumption that most prostitutes are female
+
+![Official Library of Congress subject headings for three professions traditionally perceived as female. Amanda Ros. CC BY](images/loc2.png){fig-align="center"}
+
+::: footer
+<https://theconversation.com/the-bias-hiding-in-your-library-111951>
+:::
+
+## Some Positive Changes in LOC SH {.smaller}
+
+::: {style="font-size: 91%;"}
+[**Ethnicity**]{.underline}
+
+-   In late 1970s, “`Afro-Americans`” replaced *“Negroes”*
+
+-   This was in turn replaced by “`African Americans`” or “`Blacks`” in 2000
+
+[**Medical Condition**]{.underline}
+
+-   In 2001, “`People with mental disabilities`” replaced “*Mentally handicapped”* and *“Retarded persons”*
+
+[**Gender**]{.underline}
+
+-   Gender identity is also an area where positive changes have been made
+
+-   LGBT subjects have been distinguished and classed under `“Sexual minorities”` since 1972, rather than being under the subject *“Sexual deviations”*. *“Sexual deviations”* does not even exist as a subject heading anymore
+
+-   In December, the Library of Congress changed the broader term from *“sexual minorities”* to simply “`persons`"
+:::
+
+::: footer
+<https://theconversation.com/the-bias-hiding-in-your-library-111951>
+:::
+
+## Efforts by Library of Congress {.smaller}
+
+![](images/loc3.png){fig-align="center" width="500"}
+
+::: footer
+<https://www.loc.gov/aba/cataloging/subject/indigenous.html#in-process>
+:::
+
+## Efforts by Library of Congress {.smaller}
+
+![2023-03-27](images/loc6.png "2023-03-27"){fig-alt="2023-03-27" fig-align="center"}
+
+::: footer
+<https://www.loc.gov/aba/cataloging/subject/Evaluation-Headings-Indigenous-Peoples.pdf>
+:::
+
+## Efforts by Library of Congress {.smaller}
+
+![](images/loc4.png){fig-align="center"}
+
+::: footer
+<https://www.loc.gov/aba/pcc/saco/cpsoed/psd-160321.html>
+:::
+
+## Efforts by Library of Congress {.smaller}
+
+![](images/loc5.png){fig-align="center"}
+
+::: footer
+<https://www.loc.gov/aba/cataloging/subject/lcsh-process.html>
+:::
+
+## Efforts by Libraries {.smaller}
+
+> Libraries are making efforts to redress this problematic history
+
+`Statement on Harmful Language in Cataloging and Archival Description by University of Virginia Library`
+
+-   They are actively removing the harmful language in their legacy records
+
+-   They acknowledge that many LCSH headings are biased and harmful
+
+-   They are supporting efforts underway throughout the profession to change these terms, and are also taking a localized approach to replacing some harmful and racist terms with acceptable local headings in their own catalog
+
+-   When describing some archival collections, they include a brief note to patrons alerting them to harmful or pejorative language
+
+![](images/example.png){fig-align="center"}
+
+::: footer
+<https://www.library.virginia.edu/policies/statement-on-harmful-language>
+:::
+
+## Efforts by Libraries {.smaller}
+
+::: r-stack
+![](images/example3.png){.fragment width="550" height="350"} ![](images/example2.png){.fragment width="450" height="250"}
+:::
+
+::: footer
+<https://library.virginia.edu/about-uva-library/subject-headings>
+
+[Growing Reparative Taxonomy](https://myuva-my.sharepoint.com/:x:/g/personal/jtb4t_virginia_edu/EeGfxdWzdE1GoCjRBo4-W_YBbGhzdqWcxBdNrHf_ePbTng?rtime=KGDpdNo83Eg)
+
+[Form Link](https://www.lib.virginia.edu/about-uva-library/subject-headings/form)
+:::
 
 ## Discussion {.smaller}
 
@@ -274,9 +374,6 @@ Name
 Name
 
 -   Take a few minutes to discuss with a neighbor the question of your choice
-
-
-
 
 ## In-Class Activity {.smaller}
 
