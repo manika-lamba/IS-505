@@ -83,6 +83,47 @@ format:
 
 ![](images/readings.png){fig-align="center"}
 
+## Digital Trace Data {.smaller}
+
+::: columns
+::: {.column width="70%"}
+**`Ten common characteristics of big data`**
+
+-   **Big** - *large datasets are a means to an end; they are not an end in themselves*
+
+::: {style="font-size: 60%;"}
+*\[Our\] corpus contains over 500 billion words, in English (361 billion), French (45 billion), Spanish (45 billion), German (37 billion), Chinese (13 billion), Russian (35 billion), and Hebrew (2 billion) [(Michel et al., 2011)](https://doi.org/10.1126/science.1199644)*
+:::
+
+- **Always-on** - *helps to identify unexpected events and real-time measurement*
+
+::: {style="font-size: 60%;"}
+*[Ceren Budak and Duncan Watts (2015)]( https://doi.org/10.15195/v2.a18) were able to do more by using the always-on nature of Twitter to study protesters who used Twitter before, during, and after the event. And, they were able to create a comparison group of nonparticipants before, during, and after the event*
+:::
+
+- **Nonreactive** - *Measurement in big data sources is much less likely to change behavior*
+
+::: {style="font-size: 60%;"}
+*One challenge of social research is that people can change their behavior when they know that they are being observed by researchers. Social scientists generally call this reactivity*
+:::
+
+
+:::
+
+
+::: {.column width="30%"}
+[![](images/cover.jpeg){fig-alt="https://www.bitbybitbook.com/en/1st-ed/preface/" fig-align="center"}](https://www.bitbybitbook.com/en/1st-ed/preface/)
+:::
+:::
+
+
+## Algorithmic Counfounding 
+
+![](images/bias.jpeg){fig-align="center"}
+
+::: footer
+Source: https://www.weforum.org/agenda/2021/07/ai-machine-learning-bias-discrimination/
+:::
 
 ## Discussion {.smaller}
 
