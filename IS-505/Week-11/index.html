@@ -473,17 +473,89 @@ Dr.&nbsp;Liliana Giusti Serra
 </ul>
 
 <img data-src="images/matrix.png" style="width:50.0%" class="r-stretch quarto-figure-center"><ul>
-<li>Now we have two kinds of vectors: - one for each term, showing which docs it appears in - one for each doc, showing which terms appear in it</li>
+<li>Now we have two kinds of vectors:
+<ul>
+<li>one for each term, showing which docs it appears in</li>
+<li>one for each doc, showing which terms appear in it</li>
+</ul></li>
 </ul>
 </section>
-<section id="search-building-a-better-retrieval-model" class="slide level2 smaller">
-<h2>Search: Building a Better Retrieval Model</h2>
+<section id="retrieval-model" class="slide level2 smaller">
+<h2>Retrieval Model</h2>
+<p><strong>1. Boolean Model</strong>: It is based on Boolean logic, where documents are represented as sets of terms. Queries are also represented as Boolean expressions (using AND, OR, NOT operators), and documents either match or do not match the query.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/boolean.png" style="width:50.0%;height:50.0%"></p>
+</figure>
+</div>
+</section>
+<section id="retrieval-model-cont." class="slide level2 smaller">
+<h2>Retrieval Model (Cont.)</h2>
+<p><strong>2. Vector Space Model</strong>: In this model, documents and queries are represented as vectors in a high-dimensional space, with each dimension corresponding to a term. The similarity between documents and queries is calculated using techniques such as cosine similarity.</p>
+
+<img data-src="images/vector.png" style="width:50.0%" class="r-stretch quarto-figure-center"><p class="caption">https://projector.tensorflow.org/</p></section>
+<section id="retrieval-model-cont.-1" class="slide level2 smaller">
+<h2>Retrieval Model (Cont.)</h2>
+<p><strong>3. Probabilistic Model</strong>: These models compute the probability that a document is relevant to a given query such as topic modeling.</p>
+
+<img data-src="images/tm.png" style="width:50.0%" class="r-stretch quarto-figure-center"><p><strong>4. Fuzzy Retrieval Models</strong>: These models relax the requirement for exact matches between query terms and document terms, allowing for approximate matches based on similarity measures such as edit distance or phonetic similarity.</p>
+</section>
+<section id="retrieval-model-cont.-2" class="slide level2 smaller">
+<h2>Retrieval Model (Cont.)</h2>
+<p><strong>5. Term Frequency-Inverse Document Frequency (TF-IDF)</strong>: TF-IDF is a statistical measure used to evaluate the importance of a term within a document relative to a collection of documents. It assigns weights to terms based on their frequency in the document and their rarity in the corpus.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tf-idf.jpeg"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tf.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="recent-developments" class="slide level2 smaller">
+<h2>Recent Developments</h2>
 <ul>
-<li>A Boolean model only records term presence or abscence,</li>
-<li>but often we would like to accumulate evidence, giving more weight to documents that have a term several times as opposed to ones that contain it only once</li>
-<li>To be able to do this we need <em>term frequency</em> information</li>
+<li><p>IR has traditionally been very document and text focused</p></li>
+<li><p>Recent developments</p>
+<ul>
+<li>Image retrieval</li>
+</ul></li>
 </ul>
-<p><code>Term Frequency (TF)</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/image.png" style="width:50.0%;height:50.0%"></p>
+</figure>
+</div>
+</section>
+<section id="recent-developments-1" class="slide level2 smaller">
+<h2>Recent Developments</h2>
+<ul>
+<li>Music retrieval</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/music.jpeg" style="width:50.0%;height:50.0%"></p>
+</figure>
+</div>
+</section>
+<section id="recent-developments-2" class="slide level2 smaller">
+<h2>Recent Developments</h2>
+<ul>
+<li>Fact or knowledge retrieval</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/kg.png" style="width:50.0%;height:50.0%"></p>
+</figure>
+</div>
+<p><strong><code>Each requires an underlying model of the object and of the associated retrieval tasks</code></strong></p>
 </section>
 <section id="discussion" class="slide level2 smaller">
 <h2>Discussion</h2>

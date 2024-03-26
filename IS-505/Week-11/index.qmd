@@ -139,16 +139,67 @@ format:
 
 ![](images/matrix.png){fig-align="center" width="50%"}
 
--   Now we have two kinds of vectors: - one for each term, showing which docs it appears in - one for each doc, showing which terms appear in it
+-   Now we have two kinds of vectors:
+    -   one for each term, showing which docs it appears in
+    -   one for each doc, showing which terms appear in it
 
+## Retrieval Model {.smaller}
 
-## Search: Building a Better Retrieval Model {.smaller}
+**1. Boolean Model**: It is based on Boolean logic, where documents are represented as sets of terms. Queries are also represented as Boolean expressions (using AND, OR, NOT operators), and documents either match or do not match the query.
 
--   A Boolean model only records term presence or abscence,
--   but often we would like to accumulate evidence, giving more weight to documents that have a term several times as opposed to ones that contain it only once
--   To be able to do this we need *term frequency* information
+![](images/boolean.png){fig-align="center" width="50%" height="50%"}
 
-`Term Frequency (TF)`
+## Retrieval Model (Cont.) {.smaller}
+
+**2. Vector Space Model**: In this model, documents and queries are represented as vectors in a high-dimensional space, with each dimension corresponding to a term. The similarity between documents and queries is calculated using techniques such as cosine similarity.
+
+[![https://projector.tensorflow.org/](images/vector.png){fig-align="center" width="50%"}](https://projector.tensorflow.org/)
+
+## Retrieval Model (Cont.) {.smaller}
+
+**3. Probabilistic Model**: These models compute the probability that a document is relevant to a given query such as topic modeling.
+
+![](images/tm.png){fig-align="center" width="50%"}
+
+**4. Fuzzy Retrieval Models**: These models relax the requirement for exact matches between query terms and document terms, allowing for approximate matches based on similarity measures such as edit distance or phonetic similarity.
+
+## Retrieval Model (Cont.) {.smaller}
+
+**5. Term Frequency-Inverse Document Frequency (TF-IDF)**: TF-IDF is a statistical measure used to evaluate the importance of a term within a document relative to a collection of documents. It assigns weights to terms based on their frequency in the document and their rarity in the corpus.
+
+::: columns
+::: {.column width="50%"}
+![](images/tf-idf.jpeg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/tf.png){fig-align="center"}
+:::
+:::
+
+## Recent Developments {.smaller}
+
+-   IR has traditionally been very document and text focused
+
+-   Recent developments
+
+    -   Image retrieval
+
+![](images/image.png){fig-align="center" width="50%" height="50%"}
+
+## Recent Developments {.smaller}
+
+-   Music retrieval
+
+![](images/music.jpeg){fig-align="center" width="50%" height="50%"}
+
+## Recent Developments {.smaller}
+
+-   Fact or knowledge retrieval
+
+![](images/kg.png){fig-align="center" width="50%" height="50%"}
+
+**`Each requires an underlying model of the object and of the associated retrieval tasks`**
 
 ## Discussion {.smaller}
 
