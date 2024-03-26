@@ -83,25 +83,55 @@ format:
 
 ![](images/readings.png){fig-align="center"}
 
-## Information Retrieval {.smaller}
+# Information Seeking vs [Information Searching]{style="color: blue;"} vs [Information Retrieval]{style="color: orange;"}
 
-::: columns
-::: {.column width="50%"}
--   It is a subfield of information science
+## IS vs IR {.smaller}
 
-    -   concerned with the structure, analysis, organization, storage, searching, and retrieval of information
+`Information Seeking`
 
-    -   Information retrieval research is concerned with novel methods, algorithms and systems
+::: incremental
 
-    -   The results have shaped web search systems
+-   It refers to the [broader process]{style="color: blue;"} in which individuals actively attempt to acquire information to [satisfy their information needs]{style="color: blue;"} or goals
+-   It encompasses the [entire journey that users undertake to discover, locate, and obtain relevant information]{style="color: blue;"}
+-   It involves not only the actual retrieval or searching for information but also the [formulation of information needs, the selection of appropriate search strategies, and the evaluation of retrieved information]{style="color: blue;"}
+-   This concept considers the [cognitive and behavioral aspects]{style="color: blue;"} of how individuals seek information, including their motivations, preferences, and decision-making processes
+
 :::
 
-::: {.column width="50%"}
+## IS vs IR (Cont.) {.smaller}
+
+`Information Searching`
+
+::: incremental
+-   It is a specific activity within the information seeking process, emphasizing the [action of actively looking for information]{style="color: blue;"}
+-   It refers to the [actual process of querying an information system]{style="color: blue;"} (such as a search engine or a database) to find relevant information
+-   It involves [formulating search queries, submitting them to the system, reviewing search results, and refining search strategies]{style="color: blue;"} based on the retrieved information
+-   While information searching is a critical step in information seeking, it is just one aspect of the overall process, which also includes other activities such as browsing, evaluating sources, and synthesizing information
+:::
+
+## IS vs IR (Cont.) {.smaller}
+
+::: columns
+::: {.column width="60%"}
+`Information Retrieval`
+
+::: incremental
+-   It focuses on the [technical and computational]{style="color: blue;"} aspects of accessing and retrieving relevant information from a collection of data or documents
+
+-   It involves the designing, implementation of systems and algorithms to [match user queries with relevant documents]{style="color: blue;"} or data items
+
+-   It encompasses techniques such as [indexing, ranking, relevance scoring, and retrieval models]{style="color: blue;"} to efficiently and effectively retrieve information based on user queries
+
+-   While information retrieval primarily deals with the mechanisms of retrieving information, it is a component of the broader information seeking process
+:::
+:::
+
+::: {.column width="40%"}
 ![](images/timeline.png){fig-align="center" width="65%"}
 :::
 :::
 
-## Information Retrieval (Cont.) {.smaller}
+## Information Retrieval {.smaller}
 
 `What are We Retrieving in Information Retrieval?`
 
@@ -114,15 +144,19 @@ format:
 
 -   Loosely speaking, a relevant document contains the information that a person was looking for when they submitted a query to the search engine
 
-## Google Search Algorithm
-
-![](images/page.png){fig-align="center" width="65%"}
-
 ## Berrypicking Model
 
 <iframe width="1000" height="615" src="https://www.youtube.com/embed/Ep5FRCzpY34?si=XYciZ1GDlUncafyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
 </iframe>
+
+## Google Search Algorithm
+
+![](images/page.png){fig-align="center" width="65%"}
+
+## Netflix Recommendation Algorithm
+
+![](images/netflix.jpeg){fig-align="center" width="65%"}
 
 ## Search: Finding the word
 
@@ -177,35 +211,84 @@ format:
 :::
 :::
 
+## Evaluating IR {.smaller}
+
+::: incremental
+-   Effectiveness of an IR system is based on its **exhaustivity & specificity**
+
+-   [Exhaustivity]{style="color: blue;"} is the degree to which subject matter of a given document has been reflected through index entries
+
+-   To attain exhaustivity, system has to select as many keywords as possible to represent the idea put forward in the document
+
+-   [Specificity]{style="color: blue;"} refers to how broad or how specific are the terms or keywords chosen under a given situation. More specific the terms, better is the representation of the subject through the index entry
+
+-   [Recall & Precision measure the effectiveness]{style="color: blue;"} of a systems where
+
+    -- Recall = No. of relevant documents retrieved / No. of relevant documents in the collection
+
+    -- Precision = No. of relevant documents retrieved / Total no. of documents retrieved
+
+-   [More Exhaustivity]{style="color: blue;"}, [higher recall & lower precision]{style="color: red;"}
+
+-   [More Specificity]{style="color: blue;"}, [higher precision & lower recall]{style="color: red;"}
+:::
+
 ## Recent Developments {.smaller}
 
+-   Algorithms like neural networks have been applied to tasks such as document ranking, query understanding, and relevance prediction, leading to significant improvements in retrieval performance
 -   IR has traditionally been very document and text focused
-
--   Recent developments
-
-    -   Image retrieval
+    -   [Image retrieval]{style="color: blue;"}
 
 ![](images/image.png){fig-align="center" width="50%" height="50%"}
 
 ## Recent Developments {.smaller}
 
--   Music retrieval
+-   [Music retrieval]{style="color: blue;"}
 
 ![](images/music.jpeg){fig-align="center" width="50%" height="50%"}
 
 ## Recent Developments {.smaller}
 
--   Fact or knowledge retrieval
+-   [Fact or knowledge retrieval]{style="color: blue;"}
 
 ![](images/kg.png){fig-align="center" width="50%" height="50%"}
 
-**`Each requires an underlying model of the object and of the associated retrieval tasks`**
+`Each requires an underlying model of the object and of the associated retrieval tasks`
 
 ## Discussion {.smaller}
 
-`Nora`
+`Abigail`
+
+What type of search would you do to find music? How does the limitations of being able to search music affect research about music? How might music search be similar or different to searching other types of audio such as interviews?
+
+`Logan`
+
+If AI acts as a solution to get us closer to human-thinking information retrieval, what issues will still exist in machine-based searches?
+
+`Cassiani`
+
+When determining what results are most relevant, how are things like the word occupying a different part of speech vs related words/synonyms in results balanced in terms of ranking results?
+
+`Olivia`
+
+What work should search engine engineers be doing to decrease and possibly eliminate the presence of algorithmic bias?
 
 ## In-Class Activity {.smaller}
+
+-   Write response to the questions based on the Berrypicking Model on [Canvas](https://canvas.illinois.edu/courses/42042/assignments/950129) **`individually`**
+
+-   Discuss your responses with the Class
+
+**Olivia**: I wonder how others in the class search queries? Which of the strategies listed in this section (footnote chasing, citation searching, journal run, area scanning, subject searches in bibliographies and abstracting and indexing, and author searching) do you use? 
+
+**Chloe**: Are there any circumstances where berrypicking would not be the best search method? How do you determine when to use berrypicking or instead use more direct search functions with more concise paths?
+
+**Nora**: How have the views and usage of berrypicking changed since then? With the explosion of the internet and reliance on social media, how has information retrieval and search engines changed since the time of this article?
+
+
+`Submission by TODAY at 4 PM`
+
+
 
 ## Upcoming Deadlines {.smaller}
 
