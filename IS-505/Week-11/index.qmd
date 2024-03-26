@@ -1,0 +1,193 @@
+---
+title: "Week 11: Search and Information Retrieval"
+subtitle: "IS 505 Information Organization and Access"
+author: 
+  - Dr. Manika Lamba
+  - Dr. Liliana Giusti Serra
+date: '25 March 2024'
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/uiuc.png
+    css: styles.css
+---
+
+## Class Calendar
+
+![](images/calendar.png){fig-align="center"}
+
+##  {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**`Group A-K (April 2)`**
+
+1.  Avouris, Cassiani
+
+2.  Barrett, Abigail
+
+3.  Boyle, Nora
+
+4.  Brown, Alyssa
+
+5.  Carrithers, Marguerite
+
+6.  Ding, Weiyu
+
+7.  Eggimann, Kelsey
+
+8.  Faro, Anika
+
+9.  Good, Amanda
+
+10. Harper, Evalyn
+
+11. Harrington, KeSean
+
+12. Kedzierski, Haley
+
+13. Kerr-Dennhardt, Delia
+:::
+
+::: {.column width="50%"}
+**`Group L-S (April 9)`**
+
+1.  Lawless, Jessie
+2.  Mason, Chloe
+3.  Mullins, Logan
+4.  Nagel, Nicole
+5.  Parks, Ren
+6.  Pihlstrom, Katherine
+7.  Quintana, Kari
+8.  Ryan, Isabel
+9.  Shepherd, Haley
+10. Smerz, Allyson
+11. Steiner, Madeline
+12. Streeter, Olivia
+:::
+:::
+
+## Today's Class
+
+-   Introduction
+-   Lecture
+-   Break (10 minutes)
+-   Discussion
+-   Break (10 minutes)
+-   Class activity
+
+## Week 8 Readings {.smaller}
+
+![](images/readings.png){fig-align="center"}
+
+## Information Retrieval {.smaller}
+
+::: columns
+::: {.column width="50%"}
+-   It is a subfield of information science
+
+    -   concerned with the structure, analysis, organization, storage, searching, and retrieval of information
+
+    -   Information retrieval research is concerned with novel methods, algorithms and systems
+
+    -   The results have shaped web search systems
+:::
+
+::: {.column width="50%"}
+![](images/timeline.png){fig-align="center" width="65%"}
+:::
+:::
+
+## Information Retrieval (Cont.) {.smaller}
+
+`What are We Retrieving in Information Retrieval?`
+
+-   Documents which contain information and come from a document collection (or “file”)
+    -   The canonical documents in IR are scientific journal articles
+
+`What documents do we want to retrieve?`
+
+-   Ones with information that is relevant to some information need
+
+-   Loosely speaking, a relevant document contains the information that a person was looking for when they submitted a query to the search engine
+
+## Google Search Algorithm
+
+![](images/page.png){fig-align="center" width="65%"}
+
+## Berrypicking Model
+
+<iframe width="1000" height="615" src="https://www.youtube.com/embed/Ep5FRCzpY34?si=XYciZ1GDlUncafyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+## Search: Finding the word
+
+-   The simplest form of document retrieval is for a computer to do this sort of linear scan through documents
+    -   start at the beginning
+    -   read through all the text
+    -   if you find a match for the string such as "Brutus", include the document in the result set
+
+## Search: Build an Index {.smaller}
+
+-   For each document
+    -   record whether it contains each word out of all the words Shakespeare used
+-   Result is a term-document incidence matrix
+
+![](images/matrix.png){fig-align="center" width="50%"}
+
+-   Now we have two kinds of vectors: - one for each term, showing which docs it appears in - one for each doc, showing which terms appear in it
+
+
+## Search: Building a Better Retrieval Model {.smaller}
+
+-   A Boolean model only records term presence or abscence,
+-   but often we would like to accumulate evidence, giving more weight to documents that have a term several times as opposed to ones that contain it only once
+-   To be able to do this we need *term frequency* information
+
+`Term Frequency (TF)`
+
+## Discussion {.smaller}
+
+`Nora`
+
+## In-Class Activity {.smaller}
+
+## Upcoming Deadlines {.smaller}
+
+`Weekly Discussion Post`
+
+-   Week 12: Open Access \[**March 31, 2024 (Sunday) by 11:59 PM**\]
+
+`Start Prepping for:`
+
+-   [*Group A-K Final Project Presentation* **(April 2)**]{style="color: blue;"}
+-   *Group L-S Final Project Presentation* **(April 9)**
+-   *Professional engagement post* **(April 9)**
+-   *Technical learning post* **(April 23)**
+-   *Final Paper* **(April 30)**
+
+## Next Week (April 2): Presentations + Open Access {.smaller}
+
+![](images/week-12.png){fig-align="center"}
+
+## Office Hours
+
+Open Office Hours: **`Mondays 1-2 PM`**; **`Wednesdays 2-3 PM`**
+
+::: columns
+::: {.column width="50%"}
+**Dr. Manika Lamba**
+
+Email: ***manika\@illinois.edu***
+:::
+
+::: {.column width="50%"}
+**Dr. Liliana Giusti Serra**
+
+Email: ***lilianag\@illinois.edu***
+:::
+:::
