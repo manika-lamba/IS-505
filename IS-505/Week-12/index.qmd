@@ -1,0 +1,182 @@
+---
+title: "Week 12: Open Access"
+subtitle: "IS 505 Information Organization and Access"
+author: 
+  - Dr. Manika Lamba
+  - Dr. Liliana Giusti Serra
+date: '2 April 2024'
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/uiuc.png
+    css: styles.css
+---
+
+## Class Calendar
+
+![](images/calendar.png){fig-align="center"}
+
+
+## Today's Class
+
+-   Introduction
+-   Lecture
+-   Break (10 minutes)
+-   Presentations
+-   Break (10 minutes)
+-   Presentations
+
+## Week 12 Readings {.smaller}
+
+![](images/readings.png){fig-align="center"}
+
+## Showcase -- Berry-Picking Model {.smaller}
+
+`Abigail`
+
+::: columns
+::: {.column width="50%"}
+![](images/1.png){fig-align="center"}
+:::
+
+
+::: {.column width="50%"}
+![](images/1a.png){fig-align="center"}
+:::
+:::
+
+## Showcase -- Berry-Picking Model {.smaller}
+
+`Alysaa`
+
+![](images/2.png){fig-align="center"}
+
+## Showcase -- Berry-Picking Model {.smaller}
+
+`KeSean`
+
+![](images/3.png){fig-align="center" width="40%"}
+
+## Showcase -- Berry-Picking Model {.smaller}
+
+`Haley`
+
+![](images/4.jpg){fig-align="center" width="40%"}
+
+## Showcase -- Berry-Picking Model {.smaller}
+
+`Delia`
+
+![](images/5.png){fig-align="center" width="40%"}
+
+## Showcase -- Berry-Picking Model {.smaller}
+
+`Isabel`
+
+![](images/6.png){fig-align="center" width="40%"}
+
+## Showcase -- Berry-Picking Model {.smaller}
+
+`Olivia`
+
+![](images/7.png){fig-align="center"}
+
+## Open Access {.smaller}
+
+
+
+## Discussion {.smaller}
+
+`Abigail`
+
+##  {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**`Group A-K (April 2)`**
+
+1.  Avouris, Cassiani
+
+2.  Barrett, Abigail
+
+3.  Boyle, Nora
+
+4.  Brown, Alyssa
+
+5.  Carrithers, Marguerite
+
+6.  Ding, Weiyu
+
+7.  Eggimann, Kelsey
+
+8.  Faro, Anika
+
+9.  Good, Amanda
+
+10. Harper, Evalyn
+
+11. Harrington, KeSean
+
+12. Kedzierski, Haley
+
+13. Kerr-Dennhardt, Delia
+:::
+
+::: {.column width="50%"}
+**`Group L-S (April 9)`**
+
+1.  Lawless, Jessie
+2.  Mason, Chloe
+3.  Mullins, Logan
+4.  Nagel, Nicole
+5.  Parks, Ren
+6.  Pihlstrom, Katherine
+7.  Quintana, Kari
+8.  Ryan, Isabel
+9.  Shepherd, Haley
+10. Smerz, Allyson
+11. Steiner, Madeline
+12. Streeter, Olivia
+:::
+:::
+
+
+## Upcoming Deadlines {.smaller}
+
+`Weekly Discussion Post`
+
+-   Week 13: AI for Information Organization \[**April 9, 2024 (Sunday) by 11:59 PM**\]
+
+`Start Prepping for:`
+
+-   *Group L-S Final Project Presentation* **(April 9)**
+-   *Professional engagement post* **(April 9)**
+-   *Technical learning post* **(April 23)**
+-   *Final Paper* **(April 30)**
+
+## Next Week (April 9): Presentations + AI for Information Organization {.smaller}
+
+![](images/week-13.png){fig-align="center"}
+
+## Office Hours
+
+**By appointment!**
+
+~~Open Office Hours: **`Mondays 1-2 PM`**; **`Wednesdays 2-3 PM`**~~
+
+::: columns
+::: {.column width="50%"}
+**Dr. Manika Lamba**
+
+Email: ***manika\@illinois.edu***
+:::
+
+::: {.column width="50%"}
+**Dr. Liliana Giusti Serra**
+
+Email: ***lilianag\@illinois.edu***
+:::
+:::
