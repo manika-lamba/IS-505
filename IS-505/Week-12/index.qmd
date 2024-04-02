@@ -19,7 +19,6 @@ format:
 
 ![](images/calendar.png){fig-align="center"}
 
-
 ## Today's Class
 
 -   Introduction
@@ -41,7 +40,6 @@ format:
 ::: {.column width="50%"}
 ![](images/1.png){fig-align="center"}
 :::
-
 
 ::: {.column width="50%"}
 ![](images/1a.png){fig-align="center"}
@@ -84,13 +82,83 @@ format:
 
 ![](images/7.png){fig-align="center"}
 
+## License Categories {.smaller}
+
+![](images/license.png){fig-align="center" width="50%"}
+
+More: [https://youtu.be/OnmWFxlG2GA?si=7trVQjn_YFSZxOMR](https://youtu.be/OnmWFxlG2GA?si=7trVQjn_YFSZxOMR)
+
+::: footer
+Lamba, M., Madhusudhan, M. (2022). Text Data and Mining Ethics. In: Text Mining for Information Professionals. Springer, Cham. https://doi.org/10.1007/978-3-030-85085-2_11
+:::
+
+## [Creative Commons](https://creativecommons.org/share-your-work/)
+
+![](images/cc.png){fig-align="center" width="50%"}
+
+More: [https://youtu.be/GlAnKGBnhFY?si=uzH3lzvAdFimSv-J](https://youtu.be/GlAnKGBnhFY?si=uzH3lzvAdFimSv-J)
+
+::: footer
+https://www.dontwasteyourtime.co.uk/elearning/creative-commons-infographic-licenses-explained/
+:::
+
 ## Open Access {.smaller}
 
+::: panel-tabset
+## Publications
 
+![](images/journals.jpg){fig-align="center" width="70%"}
+
+## Pub (cont.)
+
+![](images/meme.jpeg){fig-align="center" width="50%"}
+
+## Data Citation
+
+::: columns
+::: {.column width="50%"}
+![](images/force2.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/force.jpg){fig-align="center"}
+:::
+:::
+
+[*https://force11.org/info/joint-declaration-of-data-citation-principles-final/*](https://force11.org/info/joint-declaration-of-data-citation-principles-final/)
+
+## Reproducible Research
+
+![](images/repro.png){fig-align="center"}
+
+
+## Tools
+
+![](images/tools.png){fig-align="center"}
+
+:::
+
+## Reproducing Computational Studies
+
+<iframe width="1000" height="515" src="https://www.youtube.com/embed/kfWSo0TAVKY?si=gLW1cQDAVSN21jka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Why is it so Difficult to Reproduce Scientific Studies?
+
+<iframe width="1000" height="515" src="https://www.youtube.com/embed/0J5CN-8PAdU?si=miNO3j8Y15bq5pja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Discussion {.smaller}
 
-`Abigail`
+`Allyson`
+
+if there are any potential disadvantages to open access. Could a shift toward open access negatively affect the production of research? If not, why haven’t we fully made this transition?
+
+How might the trend toward informal citation for data sharing and reuse impact efforts toward open access? If researchers aren’t being credited for their contributions, are they less likely to share their work?
+
+`Chloe`
+
+As librarians, how do we work towards expanding the scope of Open Access, and are there any other sources on Grey Literature?
+
+As librarians, how do we work to help promote both formal and informal data citation, so that data sharing can be more widespread?
 
 ##  {.smaller}
 
@@ -142,7 +210,6 @@ format:
 12. Streeter, Olivia
 :::
 :::
-
 
 ## Upcoming Deadlines {.smaller}
 
