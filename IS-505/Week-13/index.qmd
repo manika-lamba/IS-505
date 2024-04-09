@@ -1,0 +1,117 @@
+---
+title: "Week 13: AI for Information Organization"
+subtitle: "IS 505 Information Organization and Access"
+author: 
+  - Dr. Manika Lamba
+  - Dr. Liliana Giusti Serra
+date: '9 April 2024'
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/uiuc.png
+    css: styles.css
+---
+
+## Class Calendar
+
+![](images/calendar.png){fig-align="center"}
+
+## Today's Class
+
+-   Introduction
+-   Lecture
+-   Break (10 minutes)
+-   Presentations
+-   Break (10 minutes)
+-   Presentations
+
+## Week 13 Readings {.smaller}
+
+![](images/readings.png){fig-align="center"}
+
+
+
+
+## Data Citation
+
+::: columns
+::: {.column width="50%"}
+![](images/force2.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/force.jpg){fig-align="center"}
+
+
+
+
+## Discussion {.smaller}
+
+`Allyson`
+
+
+##  {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**`Group A-K`**
+
+11. Harrington, KeSean
+
+12. Kedzierski, Haley
+
+13. Kerr-Dennhardt, Delia
+:::
+
+::: {.column width="50%"}
+**`Group L-S (April 9)`**
+
+1.  Mason, Chloe
+2.  Mullins, Logan
+3.  Nagel, Nicole
+4.  Parks, Ren
+5.  Pihlstrom, Katherine
+6.  Quintana, Kari
+7.  Ryan, Isabel
+8.  Shepherd, Haley
+9.  Smerz, Allyson
+10. Steiner, Madeline
+11. Streeter, Olivia
+:::
+:::
+
+## Upcoming Deadlines {.smaller}
+
+`Weekly Discussion Post`
+
+-   Week 14: Research Methods \[**April 14, 2024 (Sunday) by 11:59 PM**\]
+
+`Start Prepping for:`
+
+-   *Technical learning post* **(April 23)**
+-   *Final Paper* **(April 30)**
+
+## Next Week (April 16): Research Methods {.smaller}
+
+![](images/week-14.png){fig-align="center"}
+
+## Office Hours
+
+`By appointment!`
+
+::: columns
+::: {.column width="50%"}
+**Dr. Manika Lamba**
+
+Email: ***manika\@illinois.edu***
+:::
+
+::: {.column width="50%"}
+**Dr. Liliana Giusti Serra**
+
+Email: ***lilianag\@illinois.edu***
+:::
+:::
