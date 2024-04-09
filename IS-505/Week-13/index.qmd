@@ -31,36 +31,62 @@ format:
 
 ![](images/readings.png){fig-align="center"}
 
-## New Librarian Jobs
+## Jobs {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
 ![](images/1.png){fig-align="center"}
 :::
 
-
 ::: {.column width="50%"}
-![](images/2a.png){fig-align="center"}
-![](images/2.png){fig-align="center"}
-![](images/3.png){fig-align="center"}
+![](images/2a.png){fig-align="center"} ![](images/2.png){fig-align="center"} ![](images/3.png){fig-align="center"}
 :::
 :::
 
+## Jobs (Cont.) {.smaller}
+
+-   Emerging Technologies Librarian
+-   Digital Humanities Librarian
+
+![](images/4.png){fig-align="center" width="45%"}
 
 ## Discussion {.smaller}
 
 `Delia`
 
-What technological "shortcuts" are you grateful for in your day to day? Are there tasks you wouldn't know how to do without the aid of your current set of technology? 
+-   **What technological "shortcuts" are you grateful for in your day to day? Are there tasks you wouldn't know how to do without the aid of your current set of technology**?
 
-Who is most impacted when jobs that require "menial" or repetitive tasks are replaced by an advance in technology? How does the streamlining of a corporate or institutional practice through AI impact the time and money of the people involved? 
+-   **Who is most impacted when jobs that require "menial" or repetitive tasks are replaced by an advance in technology? How does the streamlining of a corporate or institutional practice through AI impact the time and money of the people involved**?
 
 `Haley`
 
-Do you think the fear of AI replaced librarians is a valid fear? Why or why not?
+-   **Do you think the fear of AI replaced librarians is a valid fear? Why or why not**?
 
-Since it's likely the job of the librarian will change with AI, what do you think these changes will look like? How will specialization and AI impact librarian's jobs? 
+-   Since it's likely the job of the librarian will change with AI, **what do you think these changes will look like? How will specialization and AI impact librarian's jobs**?
 
+## Discussion {.smaller}
+
+`Ren`
+
+-   As AI and machine learning relies increasingly on the constant acquisition of data, **how can we ensure the rights and privacy of students and library users are protected from extortion and misuse? How can the general public hope to hold the creators of these systems accountable when we barely understand how they work in the first place**?
+
+-   At the rate that ChatGPT can produce (MARC records), **how could we possibly hope to move fast enough to catch such subjective mistakes**?
+
+`Olivia`
+
+I found this article (Cox, 2022) interesting because I have never seriously believed that AI can take away a librarian's job, but this article offered some interesting perspectives. What I found especially interesting was reading about how AI could take over the “back end” library tasks such as sorting returned books. The Use Case that caught my attention the most was the use potentially to analyze, predict, and influence user behavior.
+
+**I am interested in the class thoughts over this potential AI use? Could it be more harmful than it is beneficial, or the other way around?**
+
+## Discussion {.smaller}
+
+`KeSean`
+
+They (Brzustowicz) state that *“Establishing clear guidelines for ownership and use of the generated content can help avoid any disputes”*.
+
+-   **What kind of guidelines do you think would be appropriate? Also, is newly generated content from various sources from ChatGPT now owned by OpenAI’s, the various creators, the prompter, or public domain?**
+
+-   **How will Machine learning and AI keep up with the ever-evolving ideas and terms of things like gender and race? Will programs and databases have to be continuously updated and is that possible?**
 
 ##  {.smaller}
 
