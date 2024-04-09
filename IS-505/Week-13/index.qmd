@@ -21,8 +21,7 @@ format:
 
 ## Today's Class
 
--   Introduction
--   Lecture
+-   Discussion
 -   Break (10 minutes)
 -   Presentations
 -   Break (10 minutes)
@@ -32,25 +31,35 @@ format:
 
 ![](images/readings.png){fig-align="center"}
 
-
-
-
-## Data Citation
+## New Librarian Jobs
 
 ::: columns
 ::: {.column width="50%"}
-![](images/force2.jpg){fig-align="center"}
+![](images/1.png){fig-align="center"}
 :::
 
+
 ::: {.column width="50%"}
-![](images/force.jpg){fig-align="center"}
-
-
+![](images/2a.png){fig-align="center"}
+![](images/2.png){fig-align="center"}
+![](images/3.png){fig-align="center"}
+:::
+:::
 
 
 ## Discussion {.smaller}
 
-`Allyson`
+`Delia`
+
+What technological "shortcuts" are you grateful for in your day to day? Are there tasks you wouldn't know how to do without the aid of your current set of technology? 
+
+Who is most impacted when jobs that require "menial" or repetitive tasks are replaced by an advance in technology? How does the streamlining of a corporate or institutional practice through AI impact the time and money of the people involved? 
+
+`Haley`
+
+Do you think the fear of AI replaced librarians is a valid fear? Why or why not?
+
+Since it's likely the job of the librarian will change with AI, what do you think these changes will look like? How will specialization and AI impact librarian's jobs? 
 
 
 ##  {.smaller}
