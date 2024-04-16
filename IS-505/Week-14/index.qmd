@@ -25,7 +25,7 @@ format:
 -   Break (10 minutes)
 -   Presentations + In-Class Activity
 
-## Week 13 Readings {.smaller}
+## Week 14 Readings {.smaller}
 
 ![](images/readings.png){fig-align="center"}
 
@@ -143,8 +143,6 @@ https://storiesforimpact.com/toolbox/research-methods-list/
 - Atlas.ti
 - NVivo
 - Otter
-
-
 :::
 
 
@@ -260,7 +258,7 @@ In this activity, we will work in pairs.
 - **What research method is being utilized?**
 - **Are there any potential concerns regarding data/research ethics if the project is implemented in real-life?**
 
-4. Discuss your findings and find out if you and your partner could correctly identify all the aspects of each others project correctly or not. 
+4. Discuss your findings and find out if you and your group member could correctly identify all the aspects of each others project correctly or not. 
 
 **Upload your findings for points 3 & 4 on Canvas**
 
@@ -276,6 +274,9 @@ In this activity, we will work in pairs.
 -   *Final Paper* **(April 30)**
 
 ## Next Week (April 23): Semantic Web {.smaller}
+
+- Location: `Room 126, 501 E. Daniel (iSchool)`
+- Remember to `Bring your laptops` for class activity
 
 ![](images/week-15.png){fig-align="center"}
 
