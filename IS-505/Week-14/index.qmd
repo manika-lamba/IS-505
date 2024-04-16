@@ -1,0 +1,162 @@
+---
+title: "Week 14: Research Methods"
+subtitle: "IS 505 Information Organization and Access"
+author: 
+  - Dr. Manika Lamba
+  - Dr. Liliana Giusti Serra
+date: '16 April 2024'
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/uiuc.png
+    css: styles.css
+---
+
+## Class Calendar
+
+![](images/calendar.png){fig-align="center"}
+
+## Today's Class
+
+-   Lecture + Discussion
+-   Break (10 minutes)
+-   Presentations + In-Class Activity
+
+## Week 13 Readings {.smaller}
+
+![](images/readings.png){fig-align="center"}
+
+## Research Methods vs Methodology {.smaller}
+
+![](images/rm.png){fig-align="center"}
+
+## Research Methodology {.smaller}
+
+`Provides answers to *HOW*:`
+
+- *How* will data be collected?
+- *How* will it be analyzed?
+- *How* will it be reported?
+
+`Provides basis for methods chapter:`
+
+*Why* were these methods selected?
+
+`Guidelines for the Researchers:`
+
+- *What* data to be collected
+- *Whom* to collect it from (sample design)
+- *How* to collect it (data collection methods)
+- *How* to analyze it (data analysis methods)
+
+
+## Types of Research
+
+::: columns
+::: {.column width="50%"}
+
+**Qualitative**
+
+- Words or descriptors
+- Inductive
+- More subjective
+:::
+
+::: {.column width="50%"}
+**Quantitative**
+
+- Numbers & stats
+- Deductive
+- More objective
+:::
+:::
+
+## Inductive vs Deductive
+
+![](images/id.png){fig-align="center"}
+
+## Data Collection Methods
+
+![](images/methods.png){fig-align="center"}
+
+## Data Collection Methods {.smaller}
+
+::: columns
+::: {.column width="50%"}
+
+**Qualitative**
+
+
+
+
+:::
+
+
+
+::: {.column width="50%"}
+
+**Quantitative**
+
+- [Descriptive Statistics]{style="color: blue;"}: to summarize [(mean, median, mode, standard deviation)]{style="color: orange;"}
+- [Inferential Statistics]{style="color: blue;"}: to generalize about a population [(correlation, regression, T-test, confidence interval)]{style="color: orange;"}
+
+:::
+:::
+
+
+
+## Discussion {.smaller}
+
+
+
+
+
+## Presentations {.smaller}
+
+**`Group L-S (April 16)`**
+
+1.  Shepherd, Haley
+2.  Smerz, Allyson
+3. Steiner, Madeline
+4. Streeter, Olivia
+
+
+## In-Class Activity
+
+
+
+## Upcoming Deadlines {.smaller}
+
+`Weekly Discussion Post`
+
+-   Week 15: Semantic Web \[**April 21, 2024 (Sunday) by 11:59 PM**\]
+
+`Start Prepping for:`
+
+-   *Technical learning post* **(April 23)**
+-   *Final Paper* **(April 30)**
+
+## Next Week (April 23): Semantic Web {.smaller}
+
+![](images/week-15.png){fig-align="center"}
+
+## Office Hours
+
+`By appointment!`
+
+::: columns
+::: {.column width="50%"}
+**Dr. Manika Lamba**
+
+Email: ***manika\@illinois.edu***
+:::
+
+::: {.column width="50%"}
+**Dr. Liliana Giusti Serra**
+
+Email: ***lilianag\@illinois.edu***
+:::
+:::
