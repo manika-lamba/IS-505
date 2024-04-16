@@ -53,24 +53,30 @@ format:
 - *How* to analyze it (data analysis methods)
 
 
-## Types of Research
+## Types of Research {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
 
 **Qualitative**
 
-- Words or descriptors
+- Answers "Why?" question
+- Words, descriptors, observations, etc
 - Inductive
 - More subjective
+- Observe & interpret
+- Grouping of common data/non-statistical analysis
 :::
 
 ::: {.column width="50%"}
 **Quantitative**
 
-- Numbers & stats
+- Answers "How much/many?" question
+- Numbers & stats result
 - Deductive
 - More objective
+- Measure and test
+- Statistical analysis
 :::
 :::
 
@@ -84,12 +90,59 @@ format:
 
 ## Data Collection Methods {.smaller}
 
+`Qualitative`
+
+1. [Content Analysis]{style="color: blue;"} (artifacts, focusing on theme and not the participants)
+    - explicit vs implicit data   
+    - conceptual vs relational
+            - likert scale
+            - proximity analysis 
+            - visual mapping
+
+2. [Thematic Analysis]{style="color: blue;"}: codes/labeling to allow discovery of themes/patterns of meaning 
+    - subjective analysis
+    - allows inductive or deductive approaches
+3. [(Critical) Discourse Analysis]{style="color: blue;"}: draws meaning from discourse (more than a single sentence)
+      - analyzes language in context (eg. communication between social groups) 
+
+4. [Narrative Analysis]{style="color: blue;"}: uses narrative artifacts [(stories, interviews, life histories, journals, photographs, etc.)]{style="color: orange;"}
+
+5. [Grounded Theory]{style="color: blue;"}: generates theory from analysis of coded data
+
+
+## Data Collection Methods (Cont.) {.smaller}
+
+`Quantitative`
+
+1. [Descriptive Statistics]{style="color: blue;"}: to summarize [(mean, median, mode, standard deviation)]{style="color: orange;"}
+2. [Inferential Statistics]{style="color: blue;"}: to generalize about a population [(correlation, regression, T-test, confidence interval)]{style="color: orange;"}
+
+
+## Choose your Research Method
+
+![](images/rs.png){fig-align="center"}
+
+::: footer
+https://storiesforimpact.com/toolbox/research-methods-list/
+:::
+
+
+## Tools {.smaller}
+
 ::: columns
 ::: {.column width="50%"}
 
-**Qualitative**
+`General Quantitative`
 
+- R
+- Python
+- SPSS
 
+`General Qualitative`
+
+- Atlas.ti
+- NVivo
+- Otter
 
 
 :::
@@ -97,21 +150,89 @@ format:
 
 
 ::: {.column width="50%"}
+`Visualization`
 
-**Quantitative**
-
-- [Descriptive Statistics]{style="color: blue;"}: to summarize [(mean, median, mode, standard deviation)]{style="color: orange;"}
-- [Inferential Statistics]{style="color: blue;"}: to generalize about a population [(correlation, regression, T-test, confidence interval)]{style="color: orange;"}
-
+- R/Python
+- Tableau
+- Infogram
+- Datawrapper
+- RAWGraphs
+- Palladio
+- Chart Studio
+- Microsoft Power BI
 :::
 :::
 
+## Tools (Cont.) {.smaller}
 
+::: columns
+::: {.column width="50%"}
+`Text analysis`
+
+- R
+- Python
+- RapidMiner
+- Orange
+- WEKA
+- Vyont Tools
+- LancsBox
+- ConText
+:::
+
+
+::: {.column width="50%"}
+`Network Analysis`
+
+- R/Python
+- Sci2 Tool
+- Gephi
+- Neo4J
+:::
+:::
+
+## 
+
+![](images/ethics.png){fig-align="center"}
 
 ## Discussion {.smaller}
 
+`Allyson`
 
+- **How important is it to choose the proper research method(s)? Is there a “right” and “wrong” choice in research methods?**
 
+- **How do librarians conduct research (smaller scale or larger research projects) on a daily basis? Which research methods have you relied on most in your experience?**
+
+`Amanda`
+
+Keeping in mind the divide between practitioners and researchers described in Bawden & Robinson, if any, of these research methods **do you see yourself using in your career as an information professional?**
+
+...this argument reminds me of the de-valuing of expertise that some librarians have experienced at the hands of patrons who consider themselves subject experts. 
+
+- **Where do you think this de-valuing of qualitative research stems from, and does it hold water?**
+
+## Discussion (Cont.) {.smaller}
+
+`Ren`
+
+- **What research methods or viewpoints do you see yourself employing the most in your work/studies, and why do you think that is? Practicality? Familiarity? Efficiency?**
+
+`Kelsey & Nora`
+
+... they mention ethical issues revolving around whether or not a person knows that their data is being collected or that their behavior is being monitored. Ethical issues like these are incredibly concerning right now with women being prosecuted over women’s health issues. The collection of medical metadata without informed consent could lead to serious legal consequences for the women involved. 
+
+- **How can we ensure that companies and individuals privy to this information are ethically using and disposing of this information?**
+
+- **How do we ensure that we can retrieve the data needed and then dispose of it to protect users' privacy? What is one example of how metadata can play into these steps?**
+
+## Discussion (Cont.) {.smaller}
+
+`Nora`
+
+**Have steps been taken since this chapter was published, and if not, what steps need to be taken to ensure Internet research is ethical?**
+
+`Madeline`
+
+I wonder if these articles (or the authors of the articles) **might argue that qualitative research is better than quantitative research? Is there a better form of research or does it depend on the question, the patron? How does one figure this out?**
 
 
 ## Presentations {.smaller}
@@ -125,6 +246,9 @@ format:
 
 
 ## In-Class Activity
+
+
+
 
 
 
